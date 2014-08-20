@@ -618,7 +618,7 @@ Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
   <md:Organization>
     <md:OrganizationName xml:lang="en">edtech.co.nz</md:OrganizationName>
     <md:OrganizationDisplayName xml:lang="en">Edtech SSO service</md:OrganizationDisplayName>
-    <md:OrganizationURL xml:lang="en">www.edtech.co.nz</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">http://www.edtech.co.nz/</md:OrganizationURL>
   </md:Organization>
   <md:ContactPerson contactType="technical">
     <md:SurName>Administrator</md:SurName>
@@ -650,7 +650,7 @@ Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
   <md:Organization>
     <md:OrganizationName xml:lang="en">norrcom.com</md:OrganizationName>
     <md:OrganizationDisplayName xml:lang="en">Wellington Regional Single Signon</md:OrganizationDisplayName>
-    <md:OrganizationURL xml:lang="en">http://www.norrcom.com</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">http://www.norrcom.com/</md:OrganizationURL>
   </md:Organization>
   <md:ContactPerson contactType="technical">
     <md:SurName>Aaron Middlemiss</md:SurName>

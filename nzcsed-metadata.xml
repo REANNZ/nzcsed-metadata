@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <EntitiesDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" Name="NZCSED-FED" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
 
-<!-- https://idp.theloop.school.nz/simplesaml/saml2/idp/metadata.php?output=xml -->
+<!-- https://idp.theloop.school.nz/simplesaml/saml2/idp/metadata.php?output=xml 
+  - commented out - being replaced by idp.crystal.school.nz
 
 <EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="idp.theloop.school.nz">
   <IDPSSODescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
@@ -33,6 +34,42 @@
     <EmailAddress>helpdesk@theloop.school.nz</EmailAddress>
   </ContactPerson>
 </EntityDescriptor>
+
+-->
+
+<!-- https://idp.crystal.school.nz/simplesaml/saml2/idp/metadata.php -->
+<!-- 2014-08-20: repalcing idp.theloop.school.nz -->
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="idp.crystal.school.nz">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDnTCCAoWgAwIBAgIJAID6W0Acj/k5MA0GCSqGSIb3DQEBBQUAMGUxCzAJBgNVBAYTAk5aMQ8wDQYDVQQIDAZOZWxzb24xDzANBgNVBAcMBk5lbHNvbjEUMBIGA1UECgwLTmVsc29uIExvb3AxHjAcBgNVBAMMFWlkcC5jcnlzdGFsLnNjaG9vbC5uejAeFw0xNDA3MDYxOTQ0MjJaFw0yNDA3MDUxOTQ0MjJaMGUxCzAJBgNVBAYTAk5aMQ8wDQYDVQQIDAZOZWxzb24xDzANBgNVBAcMBk5lbHNvbjEUMBIGA1UECgwLTmVsc29uIExvb3AxHjAcBgNVBAMMFWlkcC5jcnlzdGFsLnNjaG9vbC5uejCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALui2EpTSiuByRDWTLG7Eqsdrb+PeBw1uMGbfa5pstB2TTju7+GxD6nAjRPYeyYkRMrFV6lk7Bu+ZM9irX32O3ly67SPikzl9BuqCjsRRxB9klTu/zJ1YpUp8K2VQqexctJY8GqgIpwY3UC+H/kkJXiox1RuQ/GauPO2NFQ6/keZSr3sFmeF/lWn/21Jobsyi5SXX2mN9eOED4FxptDww+i48U/7tynTtaKzEBDAFlZnU8RmLpd2IBoi3KhrssrCnb0kP3f9MoUl+hVmZanQ446PxKtmS82UM1q6K1ZiK4/lcZH4667vikyxZmjXnTQR7ALg+Edt6H3pPCQNSDaRg9MCAwEAAaNQME4wHQYDVR0OBBYEFM49ucR9Egxt4vYIpNvC1lIKcSUDMB8GA1UdIwQYMBaAFM49ucR9Egxt4vYIpNvC1lIKcSUDMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEBAEfL2B9CvkwzrP0NTGpg/ZlD8VzRz3q29umJJnZCHmPkfCTi+lHShfH2fTfkw+ntSQo8DbDFiu7G2EO9CgqiE8TiUoLkx8jEeM/On8Rwy6VXLrmzlmcB1YSG44r+RXIekuLvt1f5wHG+HQ4gWVQoON8kbRhfRJBkLTCefzsoELvPIdcWAsYRg1BA5eXmrdfq7W7ALI9O/WWUfNyRjTk7X/RfgB5awkuI1WyMrlsjCrjB4xtNEzcVkg/tvq48xMq6Zsx3GzUXBQu/MhITCYI5xqgbcmAEKjwHyeXcINPh1f8jxfzXIc9u6Or8QgFiSEibtiqrD3IBACksOseJ+m+5aPc=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDnTCCAoWgAwIBAgIJAID6W0Acj/k5MA0GCSqGSIb3DQEBBQUAMGUxCzAJBgNVBAYTAk5aMQ8wDQYDVQQIDAZOZWxzb24xDzANBgNVBAcMBk5lbHNvbjEUMBIGA1UECgwLTmVsc29uIExvb3AxHjAcBgNVBAMMFWlkcC5jcnlzdGFsLnNjaG9vbC5uejAeFw0xNDA3MDYxOTQ0MjJaFw0yNDA3MDUxOTQ0MjJaMGUxCzAJBgNVBAYTAk5aMQ8wDQYDVQQIDAZOZWxzb24xDzANBgNVBAcMBk5lbHNvbjEUMBIGA1UECgwLTmVsc29uIExvb3AxHjAcBgNVBAMMFWlkcC5jcnlzdGFsLnNjaG9vbC5uejCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALui2EpTSiuByRDWTLG7Eqsdrb+PeBw1uMGbfa5pstB2TTju7+GxD6nAjRPYeyYkRMrFV6lk7Bu+ZM9irX32O3ly67SPikzl9BuqCjsRRxB9klTu/zJ1YpUp8K2VQqexctJY8GqgIpwY3UC+H/kkJXiox1RuQ/GauPO2NFQ6/keZSr3sFmeF/lWn/21Jobsyi5SXX2mN9eOED4FxptDww+i48U/7tynTtaKzEBDAFlZnU8RmLpd2IBoi3KhrssrCnb0kP3f9MoUl+hVmZanQ446PxKtmS82UM1q6K1ZiK4/lcZH4667vikyxZmjXnTQR7ALg+Edt6H3pPCQNSDaRg9MCAwEAAaNQME4wHQYDVR0OBBYEFM49ucR9Egxt4vYIpNvC1lIKcSUDMB8GA1UdIwQYMBaAFM49ucR9Egxt4vYIpNvC1lIKcSUDMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADggEBAEfL2B9CvkwzrP0NTGpg/ZlD8VzRz3q29umJJnZCHmPkfCTi+lHShfH2fTfkw+ntSQo8DbDFiu7G2EO9CgqiE8TiUoLkx8jEeM/On8Rwy6VXLrmzlmcB1YSG44r+RXIekuLvt1f5wHG+HQ4gWVQoON8kbRhfRJBkLTCefzsoELvPIdcWAsYRg1BA5eXmrdfq7W7ALI9O/WWUfNyRjTk7X/RfgB5awkuI1WyMrlsjCrjB4xtNEzcVkg/tvq48xMq6Zsx3GzUXBQu/MhITCYI5xqgbcmAEKjwHyeXcINPh1f8jxfzXIc9u6Or8QgFiSEibtiqrD3IBACksOseJ+m+5aPc=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.crystal.school.nz/simplesaml/saml2/idp/SingleLogoutService.php"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.crystal.school.nz/simplesaml/saml2/idp/SSOService.php"/>
+  </md:IDPSSODescriptor>
+  <Organization>
+     <OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Crystal Identity</OrganizationName>
+     <OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Crystal Identity</OrganizationDisplayName>
+     <OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://www.crystal.school.nz/</OrganizationURL>
+  </Organization>
+  <md:ContactPerson contactType="technical">
+    <md:SurName>Helpdesk</md:SurName>
+    <md:EmailAddress>helpdesk@crystal.school.nz</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
 
 <!-- https://login.gcsn.school.nz/simplesaml/saml2/idp/metadata.php?output=xml -->
 

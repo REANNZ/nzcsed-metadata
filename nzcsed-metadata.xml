@@ -1,0 +1,1130 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<EntitiesDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" Name="NZCSED-FED" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:SAML:2.0:metadata saml-schema-metadata-2.0.xsd urn:mace:shibboleth:metadata:1.0 shibboleth-metadata-1.0.xsd http://www.w3.org/2000/09/xmldsig# xmldsig-core-schema.xsd">
+
+<!-- https://idp.theloop.school.nz/simplesaml/saml2/idp/metadata.php?output=xml -->
+
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="idp.theloop.school.nz">
+  <IDPSSODescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICkzCCAfwCCQDMUDnrYTTSZzANBgkqhkiG9w0BAQUFADCBjTELMAkGA1UEBhMCTloxDzANBgNVBAgTBk5lbHNvbjEPMA0GA1UEBxMGTmVsc29uMREwDwYDVQQKEwhUaGUgTG9vcDEeMBwGA1UEAxMVaWRwLnRoZWxvb3Auc2Nob29sLm56MSkwJwYJKoZIhvcNAQkBFhpoZWxwZGVza0B0aGVsb29wLnNjaG9vbC5uejAeFw0xMDAzMTUwMDA4NDhaFw0zNzA3MzAwMDA4NDhaMIGNMQswCQYDVQQGEwJOWjEPMA0GA1UECBMGTmVsc29uMQ8wDQYDVQQHEwZOZWxzb24xETAPBgNVBAoTCFRoZSBMb29wMR4wHAYDVQQDExVpZHAudGhlbG9vcC5zY2hvb2wubnoxKTAnBgkqhkiG9w0BCQEWGmhlbHBkZXNrQHRoZWxvb3Auc2Nob29sLm56MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC75uyxvvgAE33wkO7PouhjHOF6SNUIxyhoEVKCe3r+vD0Nq7DWhAfD90+oZYFypM6A4aDJy7hv4CQMz59QkW8jZ3FEUqlvKR8tJartsST7Jq2+YI3+QZzaS/PtvtAzRR5/PjnRZIULZZU4/pPZHxJUPjoFOLagmSqmSsi79jMCpQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAIMet0GpF9mWzm1SLdwiE9RFKvd54mBBiHx5RJukYJ2CwK+u2uzVp4ZYFGNZVNiyqgW99Ju61evobHTCGxSkJCc1H9Tk9fYlvsx2aRHtiD9a00Hsw5xaLPLLa/mCUff63e6kFouMboyVyaLfBWnc6b60gibJN/krynwWtdLB9c7S</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICkzCCAfwCCQDMUDnrYTTSZzANBgkqhkiG9w0BAQUFADCBjTELMAkGA1UEBhMCTloxDzANBgNVBAgTBk5lbHNvbjEPMA0GA1UEBxMGTmVsc29uMREwDwYDVQQKEwhUaGUgTG9vcDEeMBwGA1UEAxMVaWRwLnRoZWxvb3Auc2Nob29sLm56MSkwJwYJKoZIhvcNAQkBFhpoZWxwZGVza0B0aGVsb29wLnNjaG9vbC5uejAeFw0xMDAzMTUwMDA4NDhaFw0zNzA3MzAwMDA4NDhaMIGNMQswCQYDVQQGEwJOWjEPMA0GA1UECBMGTmVsc29uMQ8wDQYDVQQHEwZOZWxzb24xETAPBgNVBAoTCFRoZSBMb29wMR4wHAYDVQQDExVpZHAudGhlbG9vcC5zY2hvb2wubnoxKTAnBgkqhkiG9w0BCQEWGmhlbHBkZXNrQHRoZWxvb3Auc2Nob29sLm56MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC75uyxvvgAE33wkO7PouhjHOF6SNUIxyhoEVKCe3r+vD0Nq7DWhAfD90+oZYFypM6A4aDJy7hv4CQMz59QkW8jZ3FEUqlvKR8tJartsST7Jq2+YI3+QZzaS/PtvtAzRR5/PjnRZIULZZU4/pPZHxJUPjoFOLagmSqmSsi79jMCpQIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAIMet0GpF9mWzm1SLdwiE9RFKvd54mBBiHx5RJukYJ2CwK+u2uzVp4ZYFGNZVNiyqgW99Ju61evobHTCGxSkJCc1H9Tk9fYlvsx2aRHtiD9a00Hsw5xaLPLLa/mCUff63e6kFouMboyVyaLfBWnc6b60gibJN/krynwWtdLB9c7S</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.theloop.school.nz/simplesaml/saml2/idp/SingleLogoutService.php"/>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.theloop.school.nz/simplesaml/saml2/idp/SSOService.php"/>
+  </IDPSSODescriptor>
+  <Organization>
+     <OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Nelson Loop</OrganizationName>
+     <OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Nelson Loop</OrganizationDisplayName>
+     <OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://www.theloop.school.nz/</OrganizationURL>
+  </Organization>
+  <ContactPerson contactType="technical">
+    <SurName>Helpdesk</SurName>
+    <EmailAddress>helpdesk@theloop.school.nz</EmailAddress>
+  </ContactPerson>
+</EntityDescriptor>
+
+<!-- https://login.gcsn.school.nz/simplesaml/saml2/idp/metadata.php?output=xml -->
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="login.gcsn.school.nz">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICYzCCAcwCCQCEQp2tRvJWBzANBgkqhkiG9w0BAQUFADB2MQswCQYDVQQGEwJOWjETMBEGA1UECBMKQ2FudGVyYnVyeTEVMBMGA1UEBxMMQ2hyaXN0Y2h1cmNoMQ0wCwYDVQQKEwRHQ1NOMQ0wCwYDVQQLEwRHQ1NOMR0wGwYDVQQDExRsb2dpbi5nY3NuLnNjaG9vbC5uejAeFw0xMDA1MjUyMjM5NTJaFw0zNzEwMDkyMjM5NTJaMHYxCzAJBgNVBAYTAk5aMRMwEQYDVQQIEwpDYW50ZXJidXJ5MRUwEwYDVQQHEwxDaHJpc3RjaHVyY2gxDTALBgNVBAoTBEdDU04xDTALBgNVBAsTBEdDU04xHTAbBgNVBAMTFGxvZ2luLmdjc24uc2Nob29sLm56MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDgxolxgHgG+E7hAh8dCujRvVVEcwcZQpTZKQVkGefCnFsyMoo2A3Tn/9WdJPEmejdYmfY15iNIA9Q1fmDEu7Ju6JnVvKvtT4UCd9gDsKQ6uruT4l2vK/jE1d1BcqEIY5pZKU2GRbyEIXmlp/yXvlUSha4QCR6DDncZZwPCo48tiwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBACQLTkz7zKtinplXFVB9gRSbQnCiDoQaoHZljTotIIzYrSLJ8uKfG+/tAd9o+ovTHncWmQGkgWIAWMb8nRXfqxfUR6FlQOnhd5MpKmF+J4Re+bGJBA3DDGl/d0UIHzN3jzFvNpMkPhLKLg4rNQIyz2nbtfzqQd8LzeL0w8WJHhwO</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICYzCCAcwCCQCEQp2tRvJWBzANBgkqhkiG9w0BAQUFADB2MQswCQYDVQQGEwJOWjETMBEGA1UECBMKQ2FudGVyYnVyeTEVMBMGA1UEBxMMQ2hyaXN0Y2h1cmNoMQ0wCwYDVQQKEwRHQ1NOMQ0wCwYDVQQLEwRHQ1NOMR0wGwYDVQQDExRsb2dpbi5nY3NuLnNjaG9vbC5uejAeFw0xMDA1MjUyMjM5NTJaFw0zNzEwMDkyMjM5NTJaMHYxCzAJBgNVBAYTAk5aMRMwEQYDVQQIEwpDYW50ZXJidXJ5MRUwEwYDVQQHEwxDaHJpc3RjaHVyY2gxDTALBgNVBAoTBEdDU04xDTALBgNVBAsTBEdDU04xHTAbBgNVBAMTFGxvZ2luLmdjc24uc2Nob29sLm56MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDgxolxgHgG+E7hAh8dCujRvVVEcwcZQpTZKQVkGefCnFsyMoo2A3Tn/9WdJPEmejdYmfY15iNIA9Q1fmDEu7Ju6JnVvKvtT4UCd9gDsKQ6uruT4l2vK/jE1d1BcqEIY5pZKU2GRbyEIXmlp/yXvlUSha4QCR6DDncZZwPCo48tiwIDAQABMA0GCSqGSIb3DQEBBQUAA4GBACQLTkz7zKtinplXFVB9gRSbQnCiDoQaoHZljTotIIzYrSLJ8uKfG+/tAd9o+ovTHncWmQGkgWIAWMb8nRXfqxfUR6FlQOnhd5MpKmF+J4Re+bGJBA3DDGl/d0UIHzN3jzFvNpMkPhLKLg4rNQIyz2nbtfzqQd8LzeL0w8WJHhwO</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.gcsn.school.nz/simplesaml/saml2/idp/SingleLogoutService.php"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.gcsn.school.nz/simplesaml/saml2/idp/SSOService.php"/>
+  </md:IDPSSODescriptor>
+  <Organization>
+     <OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Greater Christchurch Schools Network</OrganizationName>
+     <OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Greater Christchurch Schools Network</OrganizationDisplayName>
+     <OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://www.gcsn.school.nz/</OrganizationURL>
+  </Organization>
+  <md:ContactPerson contactType="technical">
+    <md:SurName>HelpDesk</md:SurName>
+    <md:EmailAddress>helpdesk@gcsn.school.nz</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
+
+<!-- https://ares.wellingtonloop.net.nz/simplesaml/saml2/idp/metadata.php?output=xml 
+
+Commented out on request of Mike Ansell <Mike.Ansell@norrcom.com>
+
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="ares.wellingtonloop.net.nz">
+  <IDPSSODescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICcTCCAdoCCQCMOYOYHMl3MjANBgkqhkiG9w0BAQUFADB9MQswCQYDVQQGEwJOWjETMBEGA1UECBMKV2VsbGluZ3RvbjETMBEGA1UEBxMKV2VsbGluZ3RvbjEfMB0GA1UEChMWV2VsbGludG9uIExvb3AgU2Nob29sczEjMCEGA1UEAxMaYXJlcy53ZWxsaW5ndG9ubG9vcC5uZXQubnowHhcNMDkxMTA1MjAxNTI2WhcNMzcwMzIyMjAxNTI2WjB9MQswCQYDVQQGEwJOWjETMBEGA1UECBMKV2VsbGluZ3RvbjETMBEGA1UEBxMKV2VsbGluZ3RvbjEfMB0GA1UEChMWV2VsbGludG9uIExvb3AgU2Nob29sczEjMCEGA1UEAxMaYXJlcy53ZWxsaW5ndG9ubG9vcC5uZXQubnowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALHHK9zy7wIH6dE/6//pAMsL+Dh/VSAlhRiDQg4N8Ck+V0fiho+2VEAT1QmWKtF4Wf6eZ++fk/m4Y46p0/eqZ0jXuJ/euUFDvMWErAs/j9KEsj1jDyE82FRKkAiUGKWUgg7EeEFuAs2+yI4FxN1KHXUnwn3hom4zg41Ry+Ni7LdDAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEANWDgXVJW1o8vCOXmEXeKb9VumPWSJtrM/oQvQJWwtbZ7OrMTFdzVZK2BfBQ7emHY+52GO1GMzMurjoD+eMO77sLBNucPxhiOAtwjwrno8kgYZvrzZsNvcXmWnsxa7YMdVEGSgVtODH20nMfFrZteRu0o/3ggQ3DSZzithaQjgLo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICcTCCAdoCCQCMOYOYHMl3MjANBgkqhkiG9w0BAQUFADB9MQswCQYDVQQGEwJOWjETMBEGA1UECBMKV2VsbGluZ3RvbjETMBEGA1UEBxMKV2VsbGluZ3RvbjEfMB0GA1UEChMWV2VsbGludG9uIExvb3AgU2Nob29sczEjMCEGA1UEAxMaYXJlcy53ZWxsaW5ndG9ubG9vcC5uZXQubnowHhcNMDkxMTA1MjAxNTI2WhcNMzcwMzIyMjAxNTI2WjB9MQswCQYDVQQGEwJOWjETMBEGA1UECBMKV2VsbGluZ3RvbjETMBEGA1UEBxMKV2VsbGluZ3RvbjEfMB0GA1UEChMWV2VsbGludG9uIExvb3AgU2Nob29sczEjMCEGA1UEAxMaYXJlcy53ZWxsaW5ndG9ubG9vcC5uZXQubnowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBALHHK9zy7wIH6dE/6//pAMsL+Dh/VSAlhRiDQg4N8Ck+V0fiho+2VEAT1QmWKtF4Wf6eZ++fk/m4Y46p0/eqZ0jXuJ/euUFDvMWErAs/j9KEsj1jDyE82FRKkAiUGKWUgg7EeEFuAs2+yI4FxN1KHXUnwn3hom4zg41Ry+Ni7LdDAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEANWDgXVJW1o8vCOXmEXeKb9VumPWSJtrM/oQvQJWwtbZ7OrMTFdzVZK2BfBQ7emHY+52GO1GMzMurjoD+eMO77sLBNucPxhiOAtwjwrno8kgYZvrzZsNvcXmWnsxa7YMdVEGSgVtODH20nMfFrZteRu0o/3ggQ3DSZzithaQjgLo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://ares.wellingtonloop.net.nz/simplesaml/saml2/idp/SingleLogoutService.php"/>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://ares.wellingtonloop.net.nz/simplesaml/saml2/idp/SSOService.php"/>
+  </IDPSSODescriptor>
+  <Organization>
+     <OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Wellington Loop</OrganizationName>
+     <OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Wellington Loop</OrganizationDisplayName>
+     <OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://www.wellingtonloop.net.nz/</OrganizationURL>
+  </Organization>
+  <ContactPerson contactType="technical">
+    <SurName>Administrator</SurName>
+    <EmailAddress>identity@wellingtonloop.net.nz</EmailAddress>
+  </ContactPerson>
+</EntityDescriptor>
+-->
+
+<!-- https://idp.rorohiko.school.nz/simplesaml/saml2/idp/metadata.php?output=xml 
+
+Commented out on request of Craig Dean <craig.dean@edtech.co.nz>
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://idp.rorohiko.school.nz">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDljCCAv+gAwIBAgIJAPEvoBt7tw2pMA0GCSqGSIb3DQEBBQUAMIGPMQswCQYDVQQGEwJOWjERMA8GA1UEBxMIQXVja2xhbmQxGDAWBgNVBAoTD1Jvcm9oaWtvIFNjaG9vbDEqMCgGA1UEAxMhUm9yb2hpa28gU2Nob29sIElkZW50aXR5IFByb3ZpZGVyMScwJQYJKoZIhvcNAQkBFhhzZXJ2aWNlZGVza0BlZHRlY2guY28ubnowHhcNMTAwODEyMTE0NjM3WhcNMjAwODExMTE0NjM3WjCBjzELMAkGA1UEBhMCTloxETAPBgNVBAcTCEF1Y2tsYW5kMRgwFgYDVQQKEw9Sb3JvaGlrbyBTY2hvb2wxKjAoBgNVBAMTIVJvcm9oaWtvIFNjaG9vbCBJZGVudGl0eSBQcm92aWRlcjEnMCUGCSqGSIb3DQEJARYYc2VydmljZWRlc2tAZWR0ZWNoLmNvLm56MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBq4XA2ffe28ShsFkOnip+hJS2TdVGBT5c06FR4nJv1RnijtUWUbB5r4IvI7T5J+zg74gv/NqmMPP3ivnA+iO/W7l94CJAy9vfnnmz6vSMV2B68EJ7ed92mQtHMp1xUXnjQUWTR9GucgeqIlZm52RjzXn4xqX+vtLBqGDq7CTzdwIDAQABo4H3MIH0MB0GA1UdDgQWBBQaUxUjhqdoPR10OaoFGHorpVXBvDCBxAYDVR0jBIG8MIG5gBQaUxUjhqdoPR10OaoFGHorpVXBvKGBlaSBkjCBjzELMAkGA1UEBhMCTloxETAPBgNVBAcTCEF1Y2tsYW5kMRgwFgYDVQQKEw9Sb3JvaGlrbyBTY2hvb2wxKjAoBgNVBAMTIVJvcm9oaWtvIFNjaG9vbCBJZGVudGl0eSBQcm92aWRlcjEnMCUGCSqGSIb3DQEJARYYc2VydmljZWRlc2tAZWR0ZWNoLmNvLm56ggkA8S+gG3u3DakwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCP+AKuI/EiLGss7l5avVH+mW0XEbRb9B/Sb++ufReZVhLmR/8DuqUaAXONDK1F7+nHzYy0ibSw12sD5Au4+yWhpcOiNXa6V1Ye4URPiygTG6Jm/3Bha0Uh4H9WufVz2uV66gXQD1PbxFSWF+xJPCnJU6zFntdxCyhxY29S6/gxtQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDljCCAv+gAwIBAgIJAPEvoBt7tw2pMA0GCSqGSIb3DQEBBQUAMIGPMQswCQYDVQQGEwJOWjERMA8GA1UEBxMIQXVja2xhbmQxGDAWBgNVBAoTD1Jvcm9oaWtvIFNjaG9vbDEqMCgGA1UEAxMhUm9yb2hpa28gU2Nob29sIElkZW50aXR5IFByb3ZpZGVyMScwJQYJKoZIhvcNAQkBFhhzZXJ2aWNlZGVza0BlZHRlY2guY28ubnowHhcNMTAwODEyMTE0NjM3WhcNMjAwODExMTE0NjM3WjCBjzELMAkGA1UEBhMCTloxETAPBgNVBAcTCEF1Y2tsYW5kMRgwFgYDVQQKEw9Sb3JvaGlrbyBTY2hvb2wxKjAoBgNVBAMTIVJvcm9oaWtvIFNjaG9vbCBJZGVudGl0eSBQcm92aWRlcjEnMCUGCSqGSIb3DQEJARYYc2VydmljZWRlc2tAZWR0ZWNoLmNvLm56MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDBq4XA2ffe28ShsFkOnip+hJS2TdVGBT5c06FR4nJv1RnijtUWUbB5r4IvI7T5J+zg74gv/NqmMPP3ivnA+iO/W7l94CJAy9vfnnmz6vSMV2B68EJ7ed92mQtHMp1xUXnjQUWTR9GucgeqIlZm52RjzXn4xqX+vtLBqGDq7CTzdwIDAQABo4H3MIH0MB0GA1UdDgQWBBQaUxUjhqdoPR10OaoFGHorpVXBvDCBxAYDVR0jBIG8MIG5gBQaUxUjhqdoPR10OaoFGHorpVXBvKGBlaSBkjCBjzELMAkGA1UEBhMCTloxETAPBgNVBAcTCEF1Y2tsYW5kMRgwFgYDVQQKEw9Sb3JvaGlrbyBTY2hvb2wxKjAoBgNVBAMTIVJvcm9oaWtvIFNjaG9vbCBJZGVudGl0eSBQcm92aWRlcjEnMCUGCSqGSIb3DQEJARYYc2VydmljZWRlc2tAZWR0ZWNoLmNvLm56ggkA8S+gG3u3DakwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQCP+AKuI/EiLGss7l5avVH+mW0XEbRb9B/Sb++ufReZVhLmR/8DuqUaAXONDK1F7+nHzYy0ibSw12sD5Au4+yWhpcOiNXa6V1Ye4URPiygTG6Jm/3Bha0Uh4H9WufVz2uV66gXQD1PbxFSWF+xJPCnJU6zFntdxCyhxY29S6/gxtQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.rorohiko.school.nz/simplesaml/saml2/idp/SingleLogoutService.php"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.rorohiko.school.nz/simplesaml/saml2/idp/SSOService.php"/>
+  </md:IDPSSODescriptor>
+  <Organization>
+     <OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Rorohiko School</OrganizationName>
+     <OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Rorohiko School</OrganizationDisplayName>
+     <OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://www.rorohiko.school.nz/</OrganizationURL>
+  </Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Edtech</md:GivenName>
+    <md:SurName>Service Desk</md:SurName>
+    <md:EmailAddress>servicedesk@edtech.co.nz</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
+
+-->
+
+<!-- https://sso.ashs.school.nz/simplesaml/saml2/idp/metadata.php?output=xml -->
+
+<!-- removed on request by Brett Merrick <brett@watchdog.net.nz>
+
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="sso.ashs.school.nz">
+  <IDPSSODescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDQDCCAqmgAwIBAgIJAKqjfE1qqlCZMA0GCSqGSIb3DQEBBQUAMHQxCzAJBgNVBAYTAk5aMREwDwYDVQQIEwhBdWNrbGFuZDERMA8GA1UEBxMIQXVja2xhbmQxIjAgBgNVBAoTGUFsYmFueSBTZW5pb3IgSGlnaCBTY2hvb2wxGzAZBgNVBAMTEnNzby5hc2hzLnNjaG9vbC5uejAeFw0wOTAxMjcwNjEwMTdaFw0wOTAyMjYwNjEwMTdaMHQxCzAJBgNVBAYTAk5aMREwDwYDVQQIEwhBdWNrbGFuZDERMA8GA1UEBxMIQXVja2xhbmQxIjAgBgNVBAoTGUFsYmFueSBTZW5pb3IgSGlnaCBTY2hvb2wxGzAZBgNVBAMTEnNzby5hc2hzLnNjaG9vbC5uejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxcXe/zUqnjBoJCul3d57a0gRVtJQLHA38/1DWAvU6gIrpbIEn+52xuLrEdnqw3z0hbxcymphBTdX0qrzReJwRfexX8M8DN+Mq9/r2XqAnLlKxyv4z6CnqQN6IoPj4KRtAwTEdHpPbJl1DIPDfuqFPo5SmzlefR3wEPgqQRNeUT0CAwEAAaOB2TCB1jAdBgNVHQ4EFgQUD6/FThizBorkRReflHboUEW6aaMwgaYGA1UdIwSBnjCBm4AUD6/FThizBorkRReflHboUEW6aaOheKR2MHQxCzAJBgNVBAYTAk5aMREwDwYDVQQIEwhBdWNrbGFuZDERMA8GA1UEBxMIQXVja2xhbmQxIjAgBgNVBAoTGUFsYmFueSBTZW5pb3IgSGlnaCBTY2hvb2wxGzAZBgNVBAMTEnNzby5hc2hzLnNjaG9vbC5ueoIJAKqjfE1qqlCZMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAIXIrOJIDQukhxiugE+BtwQh+KWzE9AGuurysxe7Wln3SKipFqcOS9Dh54iaNX+1aiJtZqE2tshCxZBEtG+AEWpFy3+4MqM/CuRwf65RhLxMA5jhV8O6VRNsncsksHp2HlEnaHY9CPTCjBqr83nqqdU1TYrDvmqrjlJlatpIuqOg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDQDCCAqmgAwIBAgIJAKqjfE1qqlCZMA0GCSqGSIb3DQEBBQUAMHQxCzAJBgNVBAYTAk5aMREwDwYDVQQIEwhBdWNrbGFuZDERMA8GA1UEBxMIQXVja2xhbmQxIjAgBgNVBAoTGUFsYmFueSBTZW5pb3IgSGlnaCBTY2hvb2wxGzAZBgNVBAMTEnNzby5hc2hzLnNjaG9vbC5uejAeFw0wOTAxMjcwNjEwMTdaFw0wOTAyMjYwNjEwMTdaMHQxCzAJBgNVBAYTAk5aMREwDwYDVQQIEwhBdWNrbGFuZDERMA8GA1UEBxMIQXVja2xhbmQxIjAgBgNVBAoTGUFsYmFueSBTZW5pb3IgSGlnaCBTY2hvb2wxGzAZBgNVBAMTEnNzby5hc2hzLnNjaG9vbC5uejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAxcXe/zUqnjBoJCul3d57a0gRVtJQLHA38/1DWAvU6gIrpbIEn+52xuLrEdnqw3z0hbxcymphBTdX0qrzReJwRfexX8M8DN+Mq9/r2XqAnLlKxyv4z6CnqQN6IoPj4KRtAwTEdHpPbJl1DIPDfuqFPo5SmzlefR3wEPgqQRNeUT0CAwEAAaOB2TCB1jAdBgNVHQ4EFgQUD6/FThizBorkRReflHboUEW6aaMwgaYGA1UdIwSBnjCBm4AUD6/FThizBorkRReflHboUEW6aaOheKR2MHQxCzAJBgNVBAYTAk5aMREwDwYDVQQIEwhBdWNrbGFuZDERMA8GA1UEBxMIQXVja2xhbmQxIjAgBgNVBAoTGUFsYmFueSBTZW5pb3IgSGlnaCBTY2hvb2wxGzAZBgNVBAMTEnNzby5hc2hzLnNjaG9vbC5ueoIJAKqjfE1qqlCZMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAIXIrOJIDQukhxiugE+BtwQh+KWzE9AGuurysxe7Wln3SKipFqcOS9Dh54iaNX+1aiJtZqE2tshCxZBEtG+AEWpFy3+4MqM/CuRwf65RhLxMA5jhV8O6VRNsncsksHp2HlEnaHY9CPTCjBqr83nqqdU1TYrDvmqrjlJlatpIuqOg=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.ashs.school.nz/simplesaml/saml2/idp/SingleLogoutService.php"/>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sso.ashs.school.nz/simplesaml/saml2/idp/SSOService.php"/>
+  </IDPSSODescriptor>
+  <Organization>
+     <OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Albany Senior High School</OrganizationName>
+     <OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Albany Senior High School</OrganizationDisplayName>
+     <OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://ashs.school.nz/</OrganizationURL>
+  </Organization>
+  <ContactPerson contactType="technical">
+    <SurName>Helpdesk</SurName>
+    <EmailAddress>helpdesk@ashs.school.nz</EmailAddress>
+  </ContactPerson>
+</EntityDescriptor>
+-->
+
+<!-- https://www.etv.org.nz/Shibboleth.sso/Metadata -->
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_5ccc97f5caebf029019389da1b60599e" entityID="https://www.etv.org.nz/shibboleth">
+
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:1.0:protocol">
+    <md:Extensions>
+      <DiscoveryResponse xmlns="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://www.etv.org.nz/Shibboleth.sso/DS" index="1"/>
+    </md:Extensions>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>https://www.etv.org.nz/shibboleth</ds:KeyName>
+        <ds:KeyName>www.etv.org.nz</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=www.etv.org.nz</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDFDCCAfygAwIBAgIJAM76dpbNwg9FMA0GCSqGSIb3DQEBBQUAMBkxFzAVBgNV
+BAMTDnd3dy5ldHYub3JnLm56MB4XDTEwMDgxMTAyMTEwOFoXDTIwMDgwODAyMTEw
+OFowGTEXMBUGA1UEAxMOd3d3LmV0di5vcmcubnowggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDQ8u/qk5gZ6HNjsA5DxLDAxHS6zdP+oJSI5xnhFKvysjEO
+SOtWGpnoHHWTap4raAPq7vs9UEuwe0BDCAsrKMmAFfGZTRHQ1pb16l1xzp4K10Wd
+FivCBNCrZ9kffeGTFZDTbBxs5xyaZimyHtXLJ1YmEy/wVF6emlzg+XZ1Q/+BUb1V
+2G16Zb7nDOaoqVzzlR5EOWtH4WCi7SPnGJJ231vRlXkgkdEqkjlag5SLipbpJsJH
+XcpRyTFnOjnl1AFJPaLZok24++sxBgu8XVoojjmQVkcDS85GuCdjONMUI4g9pBHT
+SFpgvjQUadbcT6vY1e1IwlVg7Z79DEMciRVGczJrAgMBAAGjXzBdMDwGA1UdEQQ1
+MDOCDnd3dy5ldHYub3JnLm56hiFodHRwczovL3d3dy5ldHYub3JnLm56L3NoaWJi
+b2xldGgwHQYDVR0OBBYEFBgN8V4PEiBy3aoQMjKLPgXCzn0eMA0GCSqGSIb3DQEB
+BQUAA4IBAQBt8spyzxcNHrFakRn+KSopIeQaX04e36NjfLSySngpKGSbxvu5t/nt
+NE/NcO4dAsfDrR2CVNaJqH9HaH5kLML1qHeAS4SsVSzLRhYBQWl3x8Twq9As5LFb
+YAd0XSSKLT8DK71VKycD2254D85JMBKGYFIAQeIn9Whb/Mq5n2FHbkVh3u1bFlHB
+nY6IvA7iBu/2CCHR6h6fF1NMWtkvhYAVXU9yPsSeQ5ZDeLt51Nl5f+cDm97uRfaV
+beBXHzmLW9ZTgJ+jXY3EY02dmfS9CvOX0KXo1Wex2Wgk1lsC+rzRaydUGFoq28od
+7dyDm5xSrL1j4H6qIxxnSQgf/SYzNr1I
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>https://www.etv.org.nz/shibboleth</ds:KeyName>
+        <ds:KeyName>www.etv.org.nz</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=www.etv.org.nz</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDFDCCAfygAwIBAgIJAM76dpbNwg9FMA0GCSqGSIb3DQEBBQUAMBkxFzAVBgNV
+BAMTDnd3dy5ldHYub3JnLm56MB4XDTEwMDgxMTAyMTEwOFoXDTIwMDgwODAyMTEw
+OFowGTEXMBUGA1UEAxMOd3d3LmV0di5vcmcubnowggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDQ8u/qk5gZ6HNjsA5DxLDAxHS6zdP+oJSI5xnhFKvysjEO
+SOtWGpnoHHWTap4raAPq7vs9UEuwe0BDCAsrKMmAFfGZTRHQ1pb16l1xzp4K10Wd
+FivCBNCrZ9kffeGTFZDTbBxs5xyaZimyHtXLJ1YmEy/wVF6emlzg+XZ1Q/+BUb1V
+2G16Zb7nDOaoqVzzlR5EOWtH4WCi7SPnGJJ231vRlXkgkdEqkjlag5SLipbpJsJH
+XcpRyTFnOjnl1AFJPaLZok24++sxBgu8XVoojjmQVkcDS85GuCdjONMUI4g9pBHT
+SFpgvjQUadbcT6vY1e1IwlVg7Z79DEMciRVGczJrAgMBAAGjXzBdMDwGA1UdEQQ1
+MDOCDnd3dy5ldHYub3JnLm56hiFodHRwczovL3d3dy5ldHYub3JnLm56L3NoaWJi
+b2xldGgwHQYDVR0OBBYEFBgN8V4PEiBy3aoQMjKLPgXCzn0eMA0GCSqGSIb3DQEB
+BQUAA4IBAQBt8spyzxcNHrFakRn+KSopIeQaX04e36NjfLSySngpKGSbxvu5t/nt
+NE/NcO4dAsfDrR2CVNaJqH9HaH5kLML1qHeAS4SsVSzLRhYBQWl3x8Twq9As5LFb
+YAd0XSSKLT8DK71VKycD2254D85JMBKGYFIAQeIn9Whb/Mq5n2FHbkVh3u1bFlHB
+nY6IvA7iBu/2CCHR6h6fF1NMWtkvhYAVXU9yPsSeQ5ZDeLt51Nl5f+cDm97uRfaV
+beBXHzmLW9ZTgJ+jXY3EY02dmfS9CvOX0KXo1Wex2Wgk1lsC+rzRaydUGFoq28od
+7dyDm5xSrL1j4H6qIxxnSQgf/SYzNr1I
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.etv.org.nz/Shibboleth.sso/Artifact/SOAP" index="1"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.etv.org.nz/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.etv.org.nz/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.etv.org.nz/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://www.etv.org.nz/Shibboleth.sso/SLO/Artifact"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.etv.org.nz/Shibboleth.sso/NIM/SOAP"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.etv.org.nz/Shibboleth.sso/NIM/Redirect"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.etv.org.nz/Shibboleth.sso/NIM/POST"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://www.etv.org.nz/Shibboleth.sso/NIM/Artifact"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.etv.org.nz/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://www.etv.org.nz/Shibboleth.sso/SAML2/POST-SimpleSign" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://www.etv.org.nz/Shibboleth.sso/SAML2/Artifact" index="3"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://www.etv.org.nz/Shibboleth.sso/SAML2/ECP" index="4"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://www.etv.org.nz/Shibboleth.sso/SAML/POST" index="5"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://www.etv.org.nz/Shibboleth.sso/SAML/Artifact" index="6"/>
+  </md:SPSSODescriptor>
+
+</md:EntityDescriptor>
+
+
+<!-- https://test.etv.org.nz/Shibboleth.sso/Metadata -->
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_e48c1be0b8808ca57d08b3aa3685f91a03696e66" entityID="https://test.etv.org.nz/shibboleth">
+
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:1.0:protocol">
+    <md:Extensions>
+      <idpdisc:DiscoveryResponse xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://test.etv.org.nz/Shibboleth.sso/DS" index="1"/>
+    </md:Extensions>
+    <md:KeyDescriptor>
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>https://test.etv.org.nz/shibboleth</ds:KeyName>
+        <ds:KeyName>test.etv.org.nz</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=test.etv.org.nz</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDGDCCAgCgAwIBAgIJAMxKYxq3TM+xMA0GCSqGSIb3DQEBBQUAMBoxGDAWBgNV
+BAMTD3Rlc3QuZXR2Lm9yZy5uejAeFw0xMzExMTgyMjU5MTlaFw0yMzExMTYyMjU5
+MTlaMBoxGDAWBgNVBAMTD3Rlc3QuZXR2Lm9yZy5uejCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAK8OFLsZok8LYT7qHmCvua/OQGzhmQ5Kg/K4MCnsf/jZ
+PakbuCLNMJ7Yb8NAi35w+CVZAsh2hJwG7YeneLnHcLSe2qFI2uk2a0X3cz2yEFm/
+ab4B+DAYboEAuI8p5QXhXFu2LVa92fQHUqQdp5nkU9x7+QkK+a6KQFQNYfxqkJNz
+ZlEtN09PJw4dHtWCqOoPpZd1ift4e2yQ1vCbrarkd3pbdHd6w8NhRJ9vqDFP0AsZ
+fY7f9KbjrAY8fHRiaCGCM3vVOvP4yNUfcfe3eCxB4zJ7fBSD2HYkBQrvyxK7o/S4
+jnpXiC9wF0un+Ma5LwqLNqFYOcuex61MAbYrBMB+1xMCAwEAAaNhMF8wPgYDVR0R
+BDcwNYIPdGVzdC5ldHYub3JnLm56hiJodHRwczovL3Rlc3QuZXR2Lm9yZy5uei9z
+aGliYm9sZXRoMB0GA1UdDgQWBBSR/LJD+C+M6bNjfpmAhgZnknMP3jANBgkqhkiG
+9w0BAQUFAAOCAQEAfevxJfnwYWm9pdR1ytxpuPKxJs4xhW8uAycppHylgTxcNoYh
+x5Yjc4Nj40laFuEM6TfMfRuWAJGtxjmgRLvONSuobv7g+fr2O+Y5Vcf9tTWrQFxT
+MZ1NWdcx5Wgo4s9z/NYyognfSVtbLDKaHO3adTDWhN2M7/TDeGILEHteqCEBY9OE
+FNyXlRcblr1Nws9ndtV1wC09ea4Ph4mHGjQRvPG+Eo0kRt5H7liuWVTndWRGqo0y
+MTNa2fb/0isFBqlazpDcBAPOOkWU81rTvXxjTrphDN/du76RiZOy6Bsg1IzkrZTS
+kZG5tyxLUJ3eUBLlQLoc/yJ9t5+QyUoSuCziYQ==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://test.etv.org.nz/Shibboleth.sso/Artifact/SOAP" index="1"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://test.etv.org.nz/Shibboleth.sso/SLO/Artifact"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.etv.org.nz/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://test.etv.org.nz/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://test.etv.org.nz/Shibboleth.sso/SLO/SOAP"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://test.etv.org.nz/Shibboleth.sso/NIM/Artifact"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.etv.org.nz/Shibboleth.sso/NIM/POST"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://test.etv.org.nz/Shibboleth.sso/NIM/Redirect"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://test.etv.org.nz/Shibboleth.sso/NIM/SOAP"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://test.etv.org.nz/Shibboleth.sso/SAML/Artifact" index="6"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://test.etv.org.nz/Shibboleth.sso/SAML/POST" index="7"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://test.etv.org.nz/Shibboleth.sso/SAML2/Artifact" index="8"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://test.etv.org.nz/Shibboleth.sso/SAML2/ECP" index="9"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.etv.org.nz/Shibboleth.sso/SAML2/POST" index="10"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://test.etv.org.nz/Shibboleth.sso/SAML2/POST-SimpleSign" index="11"/>
+  </md:SPSSODescriptor>
+
+</md:EntityDescriptor>
+
+
+<!-- https://staging.etv.org.nz/Shibboleth.sso/Metadata -->
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_71a3491a648eda06140d3570bee85c7b0137c8ef" entityID="https://staging.etv.org.nz/shibboleth">
+
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:1.0:protocol">
+    <md:Extensions>
+      <idpdisc:DiscoveryResponse xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://staging.etv.org.nz/Shibboleth.sso/DS" index="1"/>
+    </md:Extensions>
+    <md:KeyDescriptor>
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>https://staging.etv.org.nz/shibboleth</ds:KeyName>
+        <ds:KeyName>staging.etv.org.nz</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=staging.etv.org.nz</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDJDCCAgygAwIBAgIJAJrXGcrrpKrrMA0GCSqGSIb3DQEBBQUAMB0xGzAZBgNV
+BAMTEnN0YWdpbmcuZXR2Lm9yZy5uejAeFw0xMzExMTgyMzAxMjBaFw0yMzExMTYy
+MzAxMjBaMB0xGzAZBgNVBAMTEnN0YWdpbmcuZXR2Lm9yZy5uejCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBANHDNH2lJuLrSVMfTqh+NmfOO3JqVOQ4+oUC
+q1m4Z7bXTsSCnsPVRsHJyEhdquZTceWy4fWQUJS+vzxTMPCOa2WsD2Uuj+CiIUen
+rphAX3OCUFdalX9jQyVjGl7zV0HTyyd306xx4R8anh3mH0IlORp0+Nti/JTgcJ9P
+UBiLBJtAhBu/HjUwHwUa0CEsEf0NrcaNhPqeDNdiJt/DliP98qXBkKVqZB+YFFV6
+oKSlSJdOlzNB9lumGVwNSKNSl3Cm0VMLcZby8fANkrPjS5cRePbPC+YzXc7eBwlX
+Yf6Oj7yQRRj6JhtqkCxe5AsZo9l8BElY2hQ6miUnmJZa04HiiR8CAwEAAaNnMGUw
+RAYDVR0RBD0wO4ISc3RhZ2luZy5ldHYub3JnLm56hiVodHRwczovL3N0YWdpbmcu
+ZXR2Lm9yZy5uei9zaGliYm9sZXRoMB0GA1UdDgQWBBTLAzfWin/K1e9AKdyROabK
+Zvh0hTANBgkqhkiG9w0BAQUFAAOCAQEA0ZMJoqGZOvlWjg5NMD7PgumXBlkIfNMb
+4NCq2/cGxViMz3eD/+TY3gaWutL5YgtUKCWLQ36dFpf3ZiyDC0CpzL9f8Wdcc4JQ
+vpByr8kvtPtQQ43609vQDLoaUD5cgJaSpEsCauybi42Zd/1Givrcz+9eVyaekui3
+ZheEjc/AgbaiwkPRDGu6kJwu4F0Nfl6t+cNycaWIWEaK4P6OSys5aTshfOXCUA8N
+7KVM5qGt1K74uy23cT0+UTy4Ky28te23W/rcoeq6V10Oz6pV3pmOVyG0b5ssyEMi
+ExcAycobUUXrPbrUsAxB4KRT0cXm+1FPWW1jjSTzRc2SZ7v+GqhQVw==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://staging.etv.org.nz/Shibboleth.sso/Artifact/SOAP" index="1"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://staging.etv.org.nz/Shibboleth.sso/SLO/Artifact"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://staging.etv.org.nz/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://staging.etv.org.nz/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://staging.etv.org.nz/Shibboleth.sso/SLO/SOAP"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://staging.etv.org.nz/Shibboleth.sso/NIM/Artifact"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://staging.etv.org.nz/Shibboleth.sso/NIM/POST"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://staging.etv.org.nz/Shibboleth.sso/NIM/Redirect"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://staging.etv.org.nz/Shibboleth.sso/NIM/SOAP"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://staging.etv.org.nz/Shibboleth.sso/SAML/Artifact" index="6"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://staging.etv.org.nz/Shibboleth.sso/SAML/POST" index="7"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://staging.etv.org.nz/Shibboleth.sso/SAML2/Artifact" index="8"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://staging.etv.org.nz/Shibboleth.sso/SAML2/ECP" index="9"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://staging.etv.org.nz/Shibboleth.sso/SAML2/POST" index="10"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://staging.etv.org.nz/Shibboleth.sso/SAML2/POST-SimpleSign" index="11"/>
+  </md:SPSSODescriptor>
+
+</md:EntityDescriptor>
+
+
+<!-- https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/Metadata -->
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_082ccbf8300f296a6cc6b9a25b1c579b" entityID="https://gridgwtest.canterbury.ac.nz/shibboleth">
+
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:1.0:protocol">
+    <md:Extensions>
+      <DiscoveryResponse xmlns="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/Login" index="1"/>
+    </md:Extensions>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>gridgwtest.canterbury.ac.nz</ds:KeyName>
+        <ds:KeyName>https://gridgwtest.canterbury.ac.nz/shibboleth</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=gridgwtest.canterbury.ac.nz</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDSDCCAjCgAwIBAgIJAIgyRcMUREkNMA0GCSqGSIb3DQEBBQUAMCYxJDAiBgNV
+BAMTG2dyaWRnd3Rlc3QuY2FudGVyYnVyeS5hYy5uejAeFw0wOTEwMTUyMTQ4MTRa
+Fw0xOTEwMTMyMTQ4MTRaMCYxJDAiBgNVBAMTG2dyaWRnd3Rlc3QuY2FudGVyYnVy
+eS5hYy5uejCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANsBkA/pKMKe
+mF5wQpwj7ruUv8OH0837d0MM1vKmCHlkqLSa70WjMb22SN9cv4iLaLAiHKLsJMKM
+KO9VZQCcpnFqFriQo698FNMTx1+pZ5xvve/W9MbK5sG3iR6yYiVfbzo82m75HnHu
+GnfUd5Qiie9XPmbBSxAPVB3VUlRvh5/QXaO3RyWgNhYMvFhE4WpoOSENZ154jCkT
+6DyL3/UzlRHCfHKjus95wIxxPJ12dobZ24YeSl1cXXjnCxuLbO1djlJ27Q1x0xHT
+XSD4++e6wTpGd3TiWeWanb4o/Rih9pZN5OPZmQURo/CJfDQk7IYXBYp59Ln0wwKp
+ylkIB6MYYpECAwEAAaN5MHcwVgYDVR0RBE8wTYIbZ3JpZGd3dGVzdC5jYW50ZXJi
+dXJ5LmFjLm56hi5odHRwczovL2dyaWRnd3Rlc3QuY2FudGVyYnVyeS5hYy5uei9z
+aGliYm9sZXRoMB0GA1UdDgQWBBTLQT4rpy5DShbj3Hc23X86GuXgJDANBgkqhkiG
+9w0BAQUFAAOCAQEAxPkUPcPzSjbXcrv+ErBGlNFzNJ0pebAR/y4lbnX6MRxhLRNh
+vyxw7eqBXgflX8LUXfzwHVoInaAP+irpZIeWT7sbvRrBX+pUPz5N1DuLLsCc6Uj2
+PWGbbHrZIm+LhK8EDSQiLqhH29AbPW3oaUlItrNWOos/bhJtGHVjpfusLrIooEW5
+eC2pF3lylmytXfuo3fQCxKk52VZy1c3TkQS58KvwI+k7F0lDkWLWn5vg3qM4fyw2
+ccVOJODEQNRnaFfv75u43oWfQqiLrpv80xoVsHNx73y6g9a2/Y9CShLQDPwz1foK
+Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>gridgwtest.canterbury.ac.nz</ds:KeyName>
+        <ds:KeyName>https://gridgwtest.canterbury.ac.nz/shibboleth</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>CN=gridgwtest.canterbury.ac.nz</ds:X509SubjectName>
+          <ds:X509Certificate>MIIDSDCCAjCgAwIBAgIJAIgyRcMUREkNMA0GCSqGSIb3DQEBBQUAMCYxJDAiBgNV
+BAMTG2dyaWRnd3Rlc3QuY2FudGVyYnVyeS5hYy5uejAeFw0wOTEwMTUyMTQ4MTRa
+Fw0xOTEwMTMyMTQ4MTRaMCYxJDAiBgNVBAMTG2dyaWRnd3Rlc3QuY2FudGVyYnVy
+eS5hYy5uejCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANsBkA/pKMKe
+mF5wQpwj7ruUv8OH0837d0MM1vKmCHlkqLSa70WjMb22SN9cv4iLaLAiHKLsJMKM
+KO9VZQCcpnFqFriQo698FNMTx1+pZ5xvve/W9MbK5sG3iR6yYiVfbzo82m75HnHu
+GnfUd5Qiie9XPmbBSxAPVB3VUlRvh5/QXaO3RyWgNhYMvFhE4WpoOSENZ154jCkT
+6DyL3/UzlRHCfHKjus95wIxxPJ12dobZ24YeSl1cXXjnCxuLbO1djlJ27Q1x0xHT
+XSD4++e6wTpGd3TiWeWanb4o/Rih9pZN5OPZmQURo/CJfDQk7IYXBYp59Ln0wwKp
+ylkIB6MYYpECAwEAAaN5MHcwVgYDVR0RBE8wTYIbZ3JpZGd3dGVzdC5jYW50ZXJi
+dXJ5LmFjLm56hi5odHRwczovL2dyaWRnd3Rlc3QuY2FudGVyYnVyeS5hYy5uei9z
+aGliYm9sZXRoMB0GA1UdDgQWBBTLQT4rpy5DShbj3Hc23X86GuXgJDANBgkqhkiG
+9w0BAQUFAAOCAQEAxPkUPcPzSjbXcrv+ErBGlNFzNJ0pebAR/y4lbnX6MRxhLRNh
+vyxw7eqBXgflX8LUXfzwHVoInaAP+irpZIeWT7sbvRrBX+pUPz5N1DuLLsCc6Uj2
+PWGbbHrZIm+LhK8EDSQiLqhH29AbPW3oaUlItrNWOos/bhJtGHVjpfusLrIooEW5
+eC2pF3lylmytXfuo3fQCxKk52VZy1c3TkQS58KvwI+k7F0lDkWLWn5vg3qM4fyw2
+ccVOJODEQNRnaFfv75u43oWfQqiLrpv80xoVsHNx73y6g9a2/Y9CShLQDPwz1foK
+Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/Artifact/SOAP" index="1"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/SLO/Artifact"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/NIM/SOAP"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/NIM/Redirect"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/NIM/POST"/>
+    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/NIM/Artifact"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/SAML2/POST-SimpleSign" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/SAML2/Artifact" index="3"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/SAML2/ECP" index="4"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/SAML/POST" index="5"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://gridgwtest.canterbury.ac.nz/Shibboleth.sso/SAML/Artifact" index="6"/>
+  </md:SPSSODescriptor>
+
+</md:EntityDescriptor>
+<!-- built-in catalyst-metadata.xml -->
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" entityID="idp.catalyst.net.nz">
+  <IDPSSODescriptor xmlns:ds="http://www.w3.org/2000/09/xmldsig#" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDkzCCAvygAwIBAgIJAPM77UMS2BHMMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJOWjETMBEGA1UECBMKV2VsbGluZ3RvbjETMBEGA1UEBxMKV2VsbGluZ3RvbjERMA8GA1UEChMIQ2F0YWx5c3QxHDAaBgNVBAMTE2lkcC5jYXRhbHlzdC5uZXQubnoxJDAiBgkqhkiG9w0BCQEWFXBpZXJzQGNhdGFseXN0Lm5ldC5uejAeFw0xMDA0MTQyMDE3NDdaFw0yMDA0MTMyMDE3NDdaMIGOMQswCQYDVQQGEwJOWjETMBEGA1UECBMKV2VsbGluZ3RvbjETMBEGA1UEBxMKV2VsbGluZ3RvbjERMA8GA1UEChMIQ2F0YWx5c3QxHDAaBgNVBAMTE2lkcC5jYXRhbHlzdC5uZXQubnoxJDAiBgkqhkiG9w0BCQEWFXBpZXJzQGNhdGFseXN0Lm5ldC5uejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAt3R48m0QxUxwFpN1LXA/fKKn6glA3ISbkQsZFrDKei0EM7RbGd+IdpTNZjS4vxOUgdOyEly9kjygX6SlauCnxGL4Fl0STduF4kHJQaebkStJWqB6CtMapZSIFBDhdZUXNX5BneovHLObJ+BlnwrRLkK0QBh+nPolU7FeYeWp90kCAwEAAaOB9jCB8zAdBgNVHQ4EFgQU8M0qi0lrSB0s/cMkVO4OeMEV7h0wgcMGA1UdIwSBuzCBuIAU8M0qi0lrSB0s/cMkVO4OeMEV7h2hgZSkgZEwgY4xCzAJBgNVBAYTAk5aMRMwEQYDVQQIEwpXZWxsaW5ndG9uMRMwEQYDVQQHEwpXZWxsaW5ndG9uMREwDwYDVQQKEwhDYXRhbHlzdDEcMBoGA1UEAxMTaWRwLmNhdGFseXN0Lm5ldC5uejEkMCIGCSqGSIb3DQEJARYVcGllcnNAY2F0YWx5c3QubmV0Lm56ggkA8zvtQxLYEcwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQBjxv4mlTjBwmd/m29MuGv//FnklSF0YNZg3poFinDIZ0oDw2AN3W1/NsCpRrZj5T2xDomO1rk6vdS3yQ4JhSJpGZPKhKiZ5HM2IH1mCyJKOn1ZDHhgl6mHgG8pAC2Dewqz4J/vMPm2zvhU3GLad2wWc+slwLdMUSHkF41LuXNJcQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDkzCCAvygAwIBAgIJAPM77UMS2BHMMA0GCSqGSIb3DQEBBQUAMIGOMQswCQYDVQQGEwJOWjETMBEGA1UECBMKV2VsbGluZ3RvbjETMBEGA1UEBxMKV2VsbGluZ3RvbjERMA8GA1UEChMIQ2F0YWx5c3QxHDAaBgNVBAMTE2lkcC5jYXRhbHlzdC5uZXQubnoxJDAiBgkqhkiG9w0BCQEWFXBpZXJzQGNhdGFseXN0Lm5ldC5uejAeFw0xMDA0MTQyMDE3NDdaFw0yMDA0MTMyMDE3NDdaMIGOMQswCQYDVQQGEwJOWjETMBEGA1UECBMKV2VsbGluZ3RvbjETMBEGA1UEBxMKV2VsbGluZ3RvbjERMA8GA1UEChMIQ2F0YWx5c3QxHDAaBgNVBAMTE2lkcC5jYXRhbHlzdC5uZXQubnoxJDAiBgkqhkiG9w0BCQEWFXBpZXJzQGNhdGFseXN0Lm5ldC5uejCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAt3R48m0QxUxwFpN1LXA/fKKn6glA3ISbkQsZFrDKei0EM7RbGd+IdpTNZjS4vxOUgdOyEly9kjygX6SlauCnxGL4Fl0STduF4kHJQaebkStJWqB6CtMapZSIFBDhdZUXNX5BneovHLObJ+BlnwrRLkK0QBh+nPolU7FeYeWp90kCAwEAAaOB9jCB8zAdBgNVHQ4EFgQU8M0qi0lrSB0s/cMkVO4OeMEV7h0wgcMGA1UdIwSBuzCBuIAU8M0qi0lrSB0s/cMkVO4OeMEV7h2hgZSkgZEwgY4xCzAJBgNVBAYTAk5aMRMwEQYDVQQIEwpXZWxsaW5ndG9uMRMwEQYDVQQHEwpXZWxsaW5ndG9uMREwDwYDVQQKEwhDYXRhbHlzdDEcMBoGA1UEAxMTaWRwLmNhdGFseXN0Lm5ldC5uejEkMCIGCSqGSIb3DQEJARYVcGllcnNAY2F0YWx5c3QubmV0Lm56ggkA8zvtQxLYEcwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQUFAAOBgQBjxv4mlTjBwmd/m29MuGv//FnklSF0YNZg3poFinDIZ0oDw2AN3W1/NsCpRrZj5T2xDomO1rk6vdS3yQ4JhSJpGZPKhKiZ5HM2IH1mCyJKOn1ZDHhgl6mHgG8pAC2Dewqz4J/vMPm2zvhU3GLad2wWc+slwLdMUSHkF41LuXNJcQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.catalyst.net.nz/simplesaml/saml2/idp/SingleLogoutService.php"/>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.catalyst.net.nz/simplesaml/saml2/idp/SSOService.php"/>
+  </IDPSSODescriptor>
+  <Organization>
+     <OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Catalyst</OrganizationName>
+     <OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Test IdP - Catalyst SSO Login Service</OrganizationDisplayName>
+     <OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://www.catalyst.net.nz/</OrganizationURL>
+  </Organization>
+  <ContactPerson contactType="technical">
+    <SurName>Helpdesk</SurName>
+    <EmailAddress>helpdesk@catalyst.net.nz</EmailAddress>
+  </ContactPerson>
+</EntityDescriptor>
+
+<!-- manually provided metadata for idp.watchdog.net.nz (Brett Merrick <brett@watchdog.net.nz>) -->
+
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://idp.watchdog.net.nz/saml2/idp/metadata.php">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.watchdog.net.nz/saml2/idp/SingleLogoutService.php"/>
+
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.watchdog.net.nz/saml2/idp/SSOService.php"/>
+  </md:IDPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Watchdog Identity Service</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Watchdog Identity Service</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.watchdog.net.nz/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Brett</md:GivenName>
+    <md:SurName>Merrick</md:SurName>
+    <md:EmailAddress>idpadmin@watchdog.net.nz</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
+
+<!-- manually provided metadata for Edtech SSO service (Craig Dean <craig.dean@edtech.co.nz>) -->
+
+<!-- commented out 2011-07-21 on request from Craig Dean
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://idp.edtech.net.nz">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCArigAwIBAgIJAMEJVycmxwkCMA0GCSqGSIb3DQEBBQUAMHkxCzAJBgNVBAYTAk5aMREwDwYDVQQHEwhBdWNrbGFuZDETMBEGA1UEChMKRWR0ZWNoIEx0ZDEaMBgGA1UEAxMRRWR0ZWNoIEZlZGVyYXRpb24xJjAkBgkqhkiG9w0BCQEWF3Bvc3RtYXN0ZXJAZWR0ZWNoLmNvLm56MB4XDTEwMDgwNDEwMzU1N1oXDTM3MTIxOTEwMzU1N1oweTELMAkGA1UEBhMCTloxETAPBgNVBAcTCEF1Y2tsYW5kMRMwEQYDVQQKEwpFZHRlY2ggTHRkMRowGAYDVQQDExFFZHRlY2ggRmVkZXJhdGlvbjEmMCQGCSqGSIb3DQEJARYXcG9zdG1hc3RlckBlZHRlY2guY28ubnowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPAkJJMwtZ5930IvUDxN8Erjsqygs/PrswTmLP9FL3ErGbpDRZt47VylAaPrQx/4hwMi+Lqx/UaesemFsoKgjzr5Ypi9Ouhx6FHk2INNcbLnwtn/0VZMbsMgCnCHAPB2mkqNZfejQWj1Hnpef/oUlW32Cp+bwiwh4aw3Z7GG0CmjAgMBAAGjgd4wgdswHQYDVR0OBBYEFKH6fM2NXHtHSqAV+MAZZ9/FojwHMIGrBgNVHSMEgaMwgaCAFKH6fM2NXHtHSqAV+MAZZ9/FojwHoX2kezB5MQswCQYDVQQGEwJOWjERMA8GA1UEBxMIQXVja2xhbmQxEzARBgNVBAoTCkVkdGVjaCBMdGQxGjAYBgNVBAMTEUVkdGVjaCBGZWRlcmF0aW9uMSYwJAYJKoZIhvcNAQkBFhdwb3N0bWFzdGVyQGVkdGVjaC5jby5ueoIJAMEJVycmxwkCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAXp8OickCMYFZt6v8/sgJFbBuj+rJvv6H5HH+bv/L87hEjDJK9sEZiBhMuwUfNN9VIE9Kgfk1Qfzz0hFZIGB9hI/EpYMmqGFCnkcAK46XbNf77uPUKO/xb3nKuWl16LBQzHXrmvKeNrKgzXCWvZOeGgTe89U5XwPCWYFE/iHczVA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCArigAwIBAgIJAMEJVycmxwkCMA0GCSqGSIb3DQEBBQUAMHkxCzAJBgNVBAYTAk5aMREwDwYDVQQHEwhBdWNrbGFuZDETMBEGA1UEChMKRWR0ZWNoIEx0ZDEaMBgGA1UEAxMRRWR0ZWNoIEZlZGVyYXRpb24xJjAkBgkqhkiG9w0BCQEWF3Bvc3RtYXN0ZXJAZWR0ZWNoLmNvLm56MB4XDTEwMDgwNDEwMzU1N1oXDTM3MTIxOTEwMzU1N1oweTELMAkGA1UEBhMCTloxETAPBgNVBAcTCEF1Y2tsYW5kMRMwEQYDVQQKEwpFZHRlY2ggTHRkMRowGAYDVQQDExFFZHRlY2ggRmVkZXJhdGlvbjEmMCQGCSqGSIb3DQEJARYXcG9zdG1hc3RlckBlZHRlY2guY28ubnowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPAkJJMwtZ5930IvUDxN8Erjsqygs/PrswTmLP9FL3ErGbpDRZt47VylAaPrQx/4hwMi+Lqx/UaesemFsoKgjzr5Ypi9Ouhx6FHk2INNcbLnwtn/0VZMbsMgCnCHAPB2mkqNZfejQWj1Hnpef/oUlW32Cp+bwiwh4aw3Z7GG0CmjAgMBAAGjgd4wgdswHQYDVR0OBBYEFKH6fM2NXHtHSqAV+MAZZ9/FojwHMIGrBgNVHSMEgaMwgaCAFKH6fM2NXHtHSqAV+MAZZ9/FojwHoX2kezB5MQswCQYDVQQGEwJOWjERMA8GA1UEBxMIQXVja2xhbmQxEzARBgNVBAoTCkVkdGVjaCBMdGQxGjAYBgNVBAMTEUVkdGVjaCBGZWRlcmF0aW9uMSYwJAYJKoZIhvcNAQkBFhdwb3N0bWFzdGVyQGVkdGVjaC5jby5ueoIJAMEJVycmxwkCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAXp8OickCMYFZt6v8/sgJFbBuj+rJvv6H5HH+bv/L87hEjDJK9sEZiBhMuwUfNN9VIE9Kgfk1Qfzz0hFZIGB9hI/EpYMmqGFCnkcAK46XbNf77uPUKO/xb3nKuWl16LBQzHXrmvKeNrKgzXCWvZOeGgTe89U5XwPCWYFE/iHczVA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.edtech.net.nz/simplesaml/saml2/idp/SingleLogoutService.php"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.edtech.net.nz/simplesaml/saml2/idp/SSOService.php"/>
+  </md:IDPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Edtech SSO service</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Edtech SSO service (old)</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://idp.edtech.net.nz/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:SurName>Administrator</md:SurName>
+    <md:EmailAddress>craig.dean@edtech.co.nz</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
+-->
+
+<!-- manually provided metadata for NEW Edtech SSO service (Craig Dean <craig.dean@edtech.co.nz>) -->
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://auth.edtech.net.nz">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCArigAwIBAgIJAMEJVycmxwkCMA0GCSqGSIb3DQEBBQUAMHkxCzAJBgNVBAYTAk5aMREwDwYDVQQHEwhBdWNrbGFuZDETMBEGA1UEChMKRWR0ZWNoIEx0ZDEaMBgGA1UEAxMRRWR0ZWNoIEZlZGVyYXRpb24xJjAkBgkqhkiG9w0BCQEWF3Bvc3RtYXN0ZXJAZWR0ZWNoLmNvLm56MB4XDTEwMDgwNDEwMzU1N1oXDTM3MTIxOTEwMzU1N1oweTELMAkGA1UEBhMCTloxETAPBgNVBAcTCEF1Y2tsYW5kMRMwEQYDVQQKEwpFZHRlY2ggTHRkMRowGAYDVQQDExFFZHRlY2ggRmVkZXJhdGlvbjEmMCQGCSqGSIb3DQEJARYXcG9zdG1hc3RlckBlZHRlY2guY28ubnowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPAkJJMwtZ5930IvUDxN8Erjsqygs/PrswTmLP9FL3ErGbpDRZt47VylAaPrQx/4hwMi+Lqx/UaesemFsoKgjzr5Ypi9Ouhx6FHk2INNcbLnwtn/0VZMbsMgCnCHAPB2mkqNZfejQWj1Hnpef/oUlW32Cp+bwiwh4aw3Z7GG0CmjAgMBAAGjgd4wgdswHQYDVR0OBBYEFKH6fM2NXHtHSqAV+MAZZ9/FojwHMIGrBgNVHSMEgaMwgaCAFKH6fM2NXHtHSqAV+MAZZ9/FojwHoX2kezB5MQswCQYDVQQGEwJOWjERMA8GA1UEBxMIQXVja2xhbmQxEzARBgNVBAoTCkVkdGVjaCBMdGQxGjAYBgNVBAMTEUVkdGVjaCBGZWRlcmF0aW9uMSYwJAYJKoZIhvcNAQkBFhdwb3N0bWFzdGVyQGVkdGVjaC5jby5ueoIJAMEJVycmxwkCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAXp8OickCMYFZt6v8/sgJFbBuj+rJvv6H5HH+bv/L87hEjDJK9sEZiBhMuwUfNN9VIE9Kgfk1Qfzz0hFZIGB9hI/EpYMmqGFCnkcAK46XbNf77uPUKO/xb3nKuWl16LBQzHXrmvKeNrKgzXCWvZOeGgTe89U5XwPCWYFE/iHczVA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDTzCCArigAwIBAgIJAMEJVycmxwkCMA0GCSqGSIb3DQEBBQUAMHkxCzAJBgNVBAYTAk5aMREwDwYDVQQHEwhBdWNrbGFuZDETMBEGA1UEChMKRWR0ZWNoIEx0ZDEaMBgGA1UEAxMRRWR0ZWNoIEZlZGVyYXRpb24xJjAkBgkqhkiG9w0BCQEWF3Bvc3RtYXN0ZXJAZWR0ZWNoLmNvLm56MB4XDTEwMDgwNDEwMzU1N1oXDTM3MTIxOTEwMzU1N1oweTELMAkGA1UEBhMCTloxETAPBgNVBAcTCEF1Y2tsYW5kMRMwEQYDVQQKEwpFZHRlY2ggTHRkMRowGAYDVQQDExFFZHRlY2ggRmVkZXJhdGlvbjEmMCQGCSqGSIb3DQEJARYXcG9zdG1hc3RlckBlZHRlY2guY28ubnowgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPAkJJMwtZ5930IvUDxN8Erjsqygs/PrswTmLP9FL3ErGbpDRZt47VylAaPrQx/4hwMi+Lqx/UaesemFsoKgjzr5Ypi9Ouhx6FHk2INNcbLnwtn/0VZMbsMgCnCHAPB2mkqNZfejQWj1Hnpef/oUlW32Cp+bwiwh4aw3Z7GG0CmjAgMBAAGjgd4wgdswHQYDVR0OBBYEFKH6fM2NXHtHSqAV+MAZZ9/FojwHMIGrBgNVHSMEgaMwgaCAFKH6fM2NXHtHSqAV+MAZZ9/FojwHoX2kezB5MQswCQYDVQQGEwJOWjERMA8GA1UEBxMIQXVja2xhbmQxEzARBgNVBAoTCkVkdGVjaCBMdGQxGjAYBgNVBAMTEUVkdGVjaCBGZWRlcmF0aW9uMSYwJAYJKoZIhvcNAQkBFhdwb3N0bWFzdGVyQGVkdGVjaC5jby5ueoIJAMEJVycmxwkCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEFBQADgYEAXp8OickCMYFZt6v8/sgJFbBuj+rJvv6H5HH+bv/L87hEjDJK9sEZiBhMuwUfNN9VIE9Kgfk1Qfzz0hFZIGB9hI/EpYMmqGFCnkcAK46XbNf77uPUKO/xb3nKuWl16LBQzHXrmvKeNrKgzXCWvZOeGgTe89U5XwPCWYFE/iHczVA=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://auth.edtech.net.nz/saml2/idp/SingleLogoutService.php"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://auth.edtech.net.nz/saml2/idp/SSOService.php"/>
+  </md:IDPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Edtech</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Edtech SSO service</md:OrganizationDisplayName>
+
+    <md:OrganizationURL xml:lang="en">www.edtech.co.nz</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:SurName>Administrator</md:SurName>
+    <md:EmailAddress>craig.dean@edtech.co.nz</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
+
+<!-- Aaron Middlemiss <Aaron.Middlemiss@norrcom.com> -->
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="login.school.nz">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICRTCCAa4CCQCq+dNFunU5ezANBgkqhkiG9w0BAQUFADBnMQswCQYDVQQGEwJOWjETMBEGA1UECBMKV2VsbGluZ3RvbjEhMB8GA1UEChMYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMSAwHgYDVQQDExdjZW50cmFsLmxvZ2luLnNjaG9vbC5uejAeFw0xMTAyMDkyMzE3NTJaFw0zODA2MjYyMzE3NTJaMGcxCzAJBgNVBAYTAk5aMRMwEQYDVQQIEwpXZWxsaW5ndG9uMSEwHwYDVQQKExhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQxIDAeBgNVBAMTF2NlbnRyYWwubG9naW4uc2Nob29sLm56MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyFd7hpjUNi8ZhsO50IkKlT3pDxEGaVskKRbGmfVu6IA4svPkYQTfjWEgm77iIteSJZZbWm3EcAZrPK9Z2NXWfqB+/PFOsUSZAjYYVdc4tCOynU8j2YObFlnBMlpvvzhEf21463rk5xVsi8+A53i+uGp+fMnUE1Y4ugMHQFTTV4wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBABqMRwfVGiTYM7wDDWMiHmN53ZiN7irttmA65v/jtqb8mj/dvV/9uYXEfEsZu9pKfngAoxQUAeASOThlZN8AFtuJRsxyq8CFbAX3zVk3QNN+N2CrtrFEsjcPmrmkLM3jxabHAv1vKLpdsLZDEwa78R/hxtAwY7LBfitMOBZwAWHG</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIICRTCCAa4CCQCq+dNFunU5ezANBgkqhkiG9w0BAQUFADBnMQswCQYDVQQGEwJOWjETMBEGA1UECBMKV2VsbGluZ3RvbjEhMB8GA1UEChMYSW50ZXJuZXQgV2lkZ2l0cyBQdHkgTHRkMSAwHgYDVQQDExdjZW50cmFsLmxvZ2luLnNjaG9vbC5uejAeFw0xMTAyMDkyMzE3NTJaFw0zODA2MjYyMzE3NTJaMGcxCzAJBgNVBAYTAk5aMRMwEQYDVQQIEwpXZWxsaW5ndG9uMSEwHwYDVQQKExhJbnRlcm5ldCBXaWRnaXRzIFB0eSBMdGQxIDAeBgNVBAMTF2NlbnRyYWwubG9naW4uc2Nob29sLm56MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCyFd7hpjUNi8ZhsO50IkKlT3pDxEGaVskKRbGmfVu6IA4svPkYQTfjWEgm77iIteSJZZbWm3EcAZrPK9Z2NXWfqB+/PFOsUSZAjYYVdc4tCOynU8j2YObFlnBMlpvvzhEf21463rk5xVsi8+A53i+uGp+fMnUE1Y4ugMHQFTTV4wIDAQABMA0GCSqGSIb3DQEBBQUAA4GBABqMRwfVGiTYM7wDDWMiHmN53ZiN7irttmA65v/jtqb8mj/dvV/9uYXEfEsZu9pKfngAoxQUAeASOThlZN8AFtuJRsxyq8CFbAX3zVk3QNN+N2CrtrFEsjcPmrmkLM3jxabHAv1vKLpdsLZDEwa78R/hxtAwY7LBfitMOBZwAWHG</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.school.nz/simplesaml/saml2/idp/SingleLogoutService.php"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.school.nz/simplesaml/saml2/idp/SSOService.php"/>
+  </md:IDPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Wellington Regional Single Signon</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Wellington Regional Single Signon</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.norrcom.com</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:SurName>Aaron Middlemiss</md:SurName>
+    <md:EmailAddress>support@norrcom.com</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
+
+<!-- Tracy Briscoe <Tracyb@stpeters.school.nz> (ADFS) -->
+
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" ID="_2c936cd7-9fae-4d9a-bf78-0061a7b88513" entityID="http://fs.stpeters.school.nz/adfs/services/trust">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+	<ds:SignedInfo>
+	    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+	    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+	    <ds:Reference URI="#_2c936cd7-9fae-4d9a-bf78-0061a7b88513">
+		<ds:Transforms>
+		    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+		    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+		</ds:Transforms>
+		<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+		<ds:DigestValue>hol82WgmScDkQG9qWPirsEpb+pKp2FhKz+lWHTBm6uA=</ds:DigestValue>
+	    </ds:Reference>
+	</ds:SignedInfo>
+    <ds:SignatureValue>TEMayJHQbhCg0R5YH6yaPjjWc+FOgzs6khe6ZyQhTGOWGHHOq2N9Rsenfp8EUb09SGv71TIuEAmodhnton3Rguxdc9TmHM8kgRnzWZY0qzSzkpik9CLxMCuYd661TIufhTf+qKuWqKLU+Bc9XJ5aWjXaGaZI8xIxlGHt08xlRYF3zvhDB4ZFu73r2uDkEFET+/scSkBd28MigzTGR9S7VSWzU5gpvvWTHa9K7gGFy855NfB7GVbtvizVeNUwpG2ThdUkrv8gwEFHtXmaa6JdT4qjGbS578LaCRCFoljbko6NQarbIJCjui1ZHCyXzO2WeORiyo3JVN10F+XF9nEEgg==</ds:SignatureValue>
+    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+    <X509Data>
+	<X509Certificate>MIIC5jCCAc6gAwIBAgIQYQ6OIE3AdYhFvNyYIK/SVjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowHhcNMTMxMjEzMDkyODIxWhcNMTUwMTEyMDkyODIxWjAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDilsYegS3TyqhXZ0LcgK7v3c+bkEuk/WAmTplOhmeqBK02iGe5Vjd6i1cHcpBOviN7mD2czCc7HpF9FPLLgk6KOt3fjAjKbIwWIuTRxsRonLO7eY/G5bSv85CfZEKEjC7/8VVb/FSAZ3moH1fhuUBd2Pp/7VrXD9tGCxq+XaUI3haEOL+LvPzaDfr1dW5VMOJyB7S0wvKo4UezCyzItx1ooUW48u4ViEEB3UTUNMSSh0wYYf9Z+kMaDzorq9hy6wSr4apjjsQGy8W8rrIDZ6HSCn3SJrxPUk7LeAjEfb/LND3G8kvzxoHIMjJTX/WPbw6UEUJky311G17z1zGD+JH7AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAIKTX5yApEonLQuHJbTvuuy/ewIfq1ZlKUfeaJJpA2VNn0al8DDcyMSwmbRZkWLyCqJ5oGJWDeLLvyKnBkeFX/yidFeodccox+4winEjJbJCG6ucwLnjxsaS56k9HPU1gRP2OSSiI82sz4zix498nrOehNhRFmwJrwM0/KzoGw4LW0cNFgkDWoVb9Scdz77e4/0/4spbaa4NF//i5VfuxYVTGv5fhOKa+psdCI6v1naU5nzY+HjQKFE9Oy5mRVNXqZVVOvH3i75Av9Fjahf+w5eE/aQP4MpfJSp5lkWgvUYZOa4vXhO/uiLpMMvn9Pd4dphZ9V7Q/5BnKsFcv9WCqWM=</X509Certificate>
+    </X509Data>
+    </KeyInfo>
+    </ds:Signature>
+    <RoleDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fed="http://docs.oasis-open.org/wsfed/federation/200706" xsi:type="fed:ApplicationServiceType" protocolSupportEnumeration="http://docs.oasis-open.org/ws-sx/ws-trust/200512 http://schemas.xmlsoap.org/ws/2005/02/trust http://docs.oasis-open.org/wsfed/federation/200706" ServiceDisplayName="fs.stpeters.school.nz">
+	<KeyDescriptor use="encryption">
+	    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<X509Data>
+		    <X509Certificate>MIIC7DCCAdSgAwIBAgIQOXfQaW3DDoFPiyWQbliK5TANBgkqhkiG9w0BAQsFADAyMTAwLgYDVQQDEydBREZTIEVuY3J5cHRpb24gLSBmcy5zdHBldGVycy5zY2hvb2wubnowHhcNMTMxMjEzMDkyODE4WhcNMTUwMTEyMDkyODE4WjAyMTAwLgYDVQQDEydBREZTIEVuY3J5cHRpb24gLSBmcy5zdHBldGVycy5zY2hvb2wubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDISGHQDA8GV4e2GuJLoEK9h/cyCCwBpmBS5PPZD1YyIcmjwqJj8Zp33CYnEIbCUxOq90N7+ABlhatFsRhVwZIy0vD7ccKywfOElCHSBOypA2JWXYBWU7yRjqcEBP2td2RoPOQwB+26DAC5kkkiUos/Xk3QKeFz5eaKGbZiWybc0O7XrfuzCd2m2haYBuHcGpRnuDClEqmOql5A34JqaqiSROI6GIiEm/pgJIXY6QZCdV5kDCT03TFeA2uMS39R76wepbm/c+6NvXtvP+kKV5a88Savf81U0uXVNglFhviW6SyU4ZzdiFpkb3f4P9Jsf1NdmzhY3kPUUvTsrl3yHET/AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAFQH+z45M55s3Hli3lIBByUW47q9Jnfe7TVvjWUx1cFwHbRT3JnuUQMdIOKmjiQ/AR55O2JhWoUDqQd65g87fTpe/L5IdcROxXqvSP0Et1JOrKG0Lp9KgortvYa+YbZJzKk4K6WVz5RceNG6OmFHGq2GQOaasvcK/YCsZiYoNC0NX/uokTQHiZyK0MaiZ5vI1R/S8pUBaQGz/aF4Vf3125SuJ0YjoxXtHlPmPQP0xGAyj/N1nnne9VfmcRl0pmi7lAvkLpEHi1RBCnLgMM/ogk0uV7/qXFNOillq5aILHwccxoJy9rj9qjjOTxzagu8d5Xk7/nauxR6FH4vlMOFhYBQ=</X509Certificate>
+		</X509Data>
+	    </KeyInfo>
+	</KeyDescriptor>
+    <fed:ClaimTypesRequested>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" Optional="true">
+	    <auth:DisplayName>E-Mail Address</auth:DisplayName>
+	    <auth:Description>The e-mail address of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname" Optional="true">
+	    <auth:DisplayName>Given Name</auth:DisplayName>
+	    <auth:Description>The given name of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" Optional="true">
+	    <auth:DisplayName>Name</auth:DisplayName>
+	    <auth:Description>The unique name of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn" Optional="true">
+	    <auth:DisplayName>UPN</auth:DisplayName>
+	    <auth:Description>The user principal name (UPN) of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/claims/CommonName" Optional="true">
+	    <auth:DisplayName>Common Name</auth:DisplayName>
+	    <auth:Description>The common name of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/claims/EmailAddress" Optional="true">
+	    <auth:DisplayName>AD FS 1.x E-Mail Address</auth:DisplayName>
+	    <auth:Description>The e-mail address of the user when interoperating with AD FS 1.1 or ADFS 1.0</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/claims/Group" Optional="true">
+	    <auth:DisplayName>Group</auth:DisplayName>
+	    <auth:Description>A group that the user is a member of</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/claims/UPN" Optional="true">
+	    <auth:DisplayName>AD FS 1.x UPN</auth:DisplayName>
+	    <auth:Description>The UPN of the user when interoperating with AD FS 1.1 or ADFS 1.0</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/role" Optional="true">
+	    <auth:DisplayName>Role</auth:DisplayName>
+	    <auth:Description>A role that the user has</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname" Optional="true">
+	    <auth:DisplayName>Surname</auth:DisplayName>
+	    <auth:Description>The surname of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/privatepersonalidentifier" Optional="true">
+	    <auth:DisplayName>PPID</auth:DisplayName>
+	    <auth:Description>The private identifier of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier" Optional="true">
+	    <auth:DisplayName>Name ID</auth:DisplayName>
+	    <auth:Description>The SAML name identifier of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/authenticationinstant" Optional="true">
+	    <auth:DisplayName>Authentication time stamp</auth:DisplayName>
+	    <auth:Description>Used to display the time and date that the user was authenticated</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/authenticationmethod" Optional="true">
+	    <auth:DisplayName>Authentication method</auth:DisplayName>
+	    <auth:Description>The method used to authenticate the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/denyonlysid" Optional="true">
+	    <auth:DisplayName>Deny only group SID</auth:DisplayName>
+	    <auth:Description>The deny-only group SID of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/denyonlyprimarysid" Optional="true">
+	    <auth:DisplayName>Deny only primary SID</auth:DisplayName>
+	    <auth:Description>The deny-only primary SID of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/denyonlyprimarygroupsid" Optional="true">
+	    <auth:DisplayName>Deny only primary group SID</auth:DisplayName>
+	    <auth:Description>The deny-only primary group SID of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/groupsid" Optional="true">
+	    <auth:DisplayName>Group SID</auth:DisplayName>
+	    <auth:Description>The group SID of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/primarygroupsid" Optional="true">
+	    <auth:DisplayName>Primary group SID</auth:DisplayName>
+	    <auth:Description>The primary group SID of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid" Optional="true">
+	    <auth:DisplayName>Primary SID</auth:DisplayName>
+	    <auth:Description>The primary SID of the user</auth:Description>
+	</auth:ClaimType>
+	<auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname" Optional="true">
+	    <auth:DisplayName>Windows account name</auth:DisplayName>
+	    <auth:Description>The domain account name of the user in the form of &lt;domain&gt;\&lt;user&gt;</auth:Description>
+	</auth:ClaimType>
+	</fed:ClaimTypesRequested>
+	<fed:TargetScopes>
+	    <EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+		<Address>https://fs.stpeters.school.nz/adfs/services/trust/2005/issuedtokenmixedasymmetricbasic256</Address>
+	    </EndpointReference>
+	    <EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+		<Address>https://fs.stpeters.school.nz/adfs/services/trust/2005/issuedtokenmixedsymmetricbasic256</Address>
+	    </EndpointReference>
+	    <EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+		<Address>https://fs.stpeters.school.nz/adfs/services/trust/13/issuedtokenmixedasymmetricbasic256</Address>
+	    </EndpointReference>
+	    <EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+		<Address>https://fs.stpeters.school.nz/adfs/services/trust/13/issuedtokenmixedsymmetricbasic256</Address>
+	    </EndpointReference>
+	    <EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+		<Address>https://fs.stpeters.school.nz/adfs/ls/</Address>
+	    </EndpointReference>
+	    <EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+		<Address>http://fs.stpeters.school.nz/adfs/services/trust</Address>
+	    </EndpointReference>
+	</fed:TargetScopes>
+	<fed:ApplicationServiceEndpoint>
+	    <EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+		<Address>https://fs.stpeters.school.nz/adfs/services/trust/2005/issuedtokenmixedasymmetricbasic256</Address>
+	    </EndpointReference>
+	</fed:ApplicationServiceEndpoint>
+	<fed:PassiveRequestorEndpoint>
+	    <EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+		<Address>https://fs.stpeters.school.nz/adfs/ls/</Address>
+	    </EndpointReference>
+	</fed:PassiveRequestorEndpoint>
+    </RoleDescriptor>
+    <RoleDescriptor xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:fed="http://docs.oasis-open.org/wsfed/federation/200706" xsi:type="fed:SecurityTokenServiceType" protocolSupportEnumeration="http://docs.oasis-open.org/ws-sx/ws-trust/200512 http://schemas.xmlsoap.org/ws/2005/02/trust http://docs.oasis-open.org/wsfed/federation/200706" ServiceDisplayName="fs.stpeters.school.nz">
+	<KeyDescriptor use="signing">
+	    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+	    <X509Data>
+		<X509Certificate>MIIC5jCCAc6gAwIBAgIQYQ6OIE3AdYhFvNyYIK/SVjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowHhcNMTMxMjEzMDkyODIxWhcNMTUwMTEyMDkyODIxWjAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDilsYegS3TyqhXZ0LcgK7v3c+bkEuk/WAmTplOhmeqBK02iGe5Vjd6i1cHcpBOviN7mD2czCc7HpF9FPLLgk6KOt3fjAjKbIwWIuTRxsRonLO7eY/G5bSv85CfZEKEjC7/8VVb/FSAZ3moH1fhuUBd2Pp/7VrXD9tGCxq+XaUI3haEOL+LvPzaDfr1dW5VMOJyB7S0wvKo4UezCyzItx1ooUW48u4ViEEB3UTUNMSSh0wYYf9Z+kMaDzorq9hy6wSr4apjjsQGy8W8rrIDZ6HSCn3SJrxPUk7LeAjEfb/LND3G8kvzxoHIMjJTX/WPbw6UEUJky311G17z1zGD+JH7AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAIKTX5yApEonLQuHJbTvuuy/ewIfq1ZlKUfeaJJpA2VNn0al8DDcyMSwmbRZkWLyCqJ5oGJWDeLLvyKnBkeFX/yidFeodccox+4winEjJbJCG6ucwLnjxsaS56k9HPU1gRP2OSSiI82sz4zix498nrOehNhRFmwJrwM0/KzoGw4LW0cNFgkDWoVb9Scdz77e4/0/4spbaa4NF//i5VfuxYVTGv5fhOKa+psdCI6v1naU5nzY+HjQKFE9Oy5mRVNXqZVVOvH3i75Av9Fjahf+w5eE/aQP4MpfJSp5lkWgvUYZOa4vXhO/uiLpMMvn9Pd4dphZ9V7Q/5BnKsFcv9WCqWM=</X509Certificate>
+	    </X509Data>
+	</KeyInfo>
+	</KeyDescriptor>
+	<fed:TokenTypesOffered>
+	    <fed:TokenType Uri="urn:oasis:names:tc:SAML:2.0:assertion"/>
+	    <fed:TokenType Uri="urn:oasis:names:tc:SAML:1.0:assertion"/>
+	</fed:TokenTypesOffered>
+	<fed:ClaimTypesOffered>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" Optional="true">
+		<auth:DisplayName>E-Mail Address</auth:DisplayName>
+		<auth:Description>The e-mail address of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname" Optional="true">
+		<auth:DisplayName>Given Name</auth:DisplayName>
+		<auth:Description>The given name of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" Optional="true">
+		<auth:DisplayName>Name</auth:DisplayName>
+		<auth:Description>The unique name of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn" Optional="true">
+		<auth:DisplayName>UPN</auth:DisplayName>
+		<auth:Description>The user principal name (UPN) of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/claims/CommonName" Optional="true">
+		<auth:DisplayName>Common Name</auth:DisplayName>
+		<auth:Description>The common name of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/claims/EmailAddress" Optional="true">
+		<auth:DisplayName>AD FS 1.x E-Mail Address</auth:DisplayName>
+		<auth:Description>The e-mail address of the user when interoperating with AD FS 1.1 or ADFS 1.0</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/claims/Group" Optional="true">
+		<auth:DisplayName>Group</auth:DisplayName>
+		<auth:Description>A group that the user is a member of</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/claims/UPN" Optional="true">
+		<auth:DisplayName>AD FS 1.x UPN</auth:DisplayName>
+		<auth:Description>The UPN of the user when interoperating with AD FS 1.1 or ADFS 1.0</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/role" Optional="true">
+		<auth:DisplayName>Role</auth:DisplayName>
+		<auth:Description>A role that the user has</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname" Optional="true">
+		<auth:DisplayName>Surname</auth:DisplayName>
+		<auth:Description>The surname of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/privatepersonalidentifier" Optional="true">
+		<auth:DisplayName>PPID</auth:DisplayName>
+		<auth:Description>The private identifier of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier" Optional="true">
+		<auth:DisplayName>Name ID</auth:DisplayName>
+		<auth:Description>The SAML name identifier of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/authenticationinstant" Optional="true">
+		<auth:DisplayName>Authentication time stamp</auth:DisplayName>
+		<auth:Description>Used to display the time and date that the user was authenticated</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/authenticationmethod" Optional="true">
+		<auth:DisplayName>Authentication method</auth:DisplayName>
+		<auth:Description>The method used to authenticate the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/denyonlysid" Optional="true">
+		<auth:DisplayName>Deny only group SID</auth:DisplayName>
+		<auth:Description>The deny-only group SID of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/denyonlyprimarysid" Optional="true">
+		<auth:DisplayName>Deny only primary SID</auth:DisplayName>
+		<auth:Description>The deny-only primary SID of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/denyonlyprimarygroupsid" Optional="true">
+		<auth:DisplayName>Deny only primary group SID</auth:DisplayName>
+		<auth:Description>The deny-only primary group SID of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/groupsid" Optional="true">
+		<auth:DisplayName>Group SID</auth:DisplayName>
+		<auth:Description>The group SID of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/primarygroupsid" Optional="true">
+		<auth:DisplayName>Primary group SID</auth:DisplayName>
+		<auth:Description>The primary group SID of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid" Optional="true">
+		<auth:DisplayName>Primary SID</auth:DisplayName>
+		<auth:Description>The primary SID of the user</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname" Optional="true">
+		<auth:DisplayName>Windows account name</auth:DisplayName>
+		<auth:Description>The domain account name of the user in the form of &lt;domain&gt;\&lt;user&gt;</auth:Description>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="urn:oid:1.3.6.1.4.1.36350.1.1.1.1" Optional="true">
+		<auth:DisplayName>mlepUsername odi</auth:DisplayName>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="urn:oid:1.3.6.1.4.1.36350.1.1.1.3" Optional="true">
+		<auth:DisplayName>mlepFirstName odi</auth:DisplayName>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="urn:oid:1.3.6.1.4.1.36350.1.1.1.4" Optional="true">
+		<auth:DisplayName>mlepLastName odi</auth:DisplayName>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="urn:oid:1.3.6.1.4.1.36350.1.1.1.5" Optional="true">
+		<auth:DisplayName>mlepEmail odi</auth:DisplayName>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="urn:oid:1.3.6.1.4.1.36350.1.1.1.6" Optional="true">
+		<auth:DisplayName>mlepOrganisation odi</auth:DisplayName>
+	    </auth:ClaimType>
+	    <auth:ClaimType xmlns:auth="http://docs.oasis-open.org/wsfed/authorization/200706" Uri="urn:oid:1.3.6.1.4.1.36350.1.1.1.7" Optional="true">
+		<auth:DisplayName>mlepRole odi</auth:DisplayName>
+	    </auth:ClaimType>
+	</fed:ClaimTypesOffered>
+	<fed:SecurityTokenServiceEndpoint>
+	    <EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+	    <Address>https://fs.stpeters.school.nz/adfs/services/trust/2005/certificatemixed</Address>
+	    <Metadata>
+		<Metadata xmlns="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex">
+		    <wsx:MetadataSection xmlns="" Dialect="http://schemas.xmlsoap.org/ws/2004/09/mex">
+			<wsx:MetadataReference>
+			    <Address xmlns="http://www.w3.org/2005/08/addressing">https://fs.stpeters.school.nz/adfs/services/trust/mex</Address>
+			</wsx:MetadataReference>
+		    </wsx:MetadataSection>
+		</Metadata>
+	    </Metadata>
+	    </EndpointReference>
+	</fed:SecurityTokenServiceEndpoint>
+	<fed:PassiveRequestorEndpoint>
+	    <EndpointReference xmlns="http://www.w3.org/2005/08/addressing">
+		<Address>https://fs.stpeters.school.nz/adfs/ls/</Address>
+	    </EndpointReference>
+	</fed:PassiveRequestorEndpoint>
+    </RoleDescriptor>
+    <SPSSODescriptor WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+	<KeyDescriptor use="encryption">
+	    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<X509Data>
+		    <X509Certificate>MIIC7DCCAdSgAwIBAgIQOXfQaW3DDoFPiyWQbliK5TANBgkqhkiG9w0BAQsFADAyMTAwLgYDVQQDEydBREZTIEVuY3J5cHRpb24gLSBmcy5zdHBldGVycy5zY2hvb2wubnowHhcNMTMxMjEzMDkyODE4WhcNMTUwMTEyMDkyODE4WjAyMTAwLgYDVQQDEydBREZTIEVuY3J5cHRpb24gLSBmcy5zdHBldGVycy5zY2hvb2wubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDISGHQDA8GV4e2GuJLoEK9h/cyCCwBpmBS5PPZD1YyIcmjwqJj8Zp33CYnEIbCUxOq90N7+ABlhatFsRhVwZIy0vD7ccKywfOElCHSBOypA2JWXYBWU7yRjqcEBP2td2RoPOQwB+26DAC5kkkiUos/Xk3QKeFz5eaKGbZiWybc0O7XrfuzCd2m2haYBuHcGpRnuDClEqmOql5A34JqaqiSROI6GIiEm/pgJIXY6QZCdV5kDCT03TFeA2uMS39R76wepbm/c+6NvXtvP+kKV5a88Savf81U0uXVNglFhviW6SyU4ZzdiFpkb3f4P9Jsf1NdmzhY3kPUUvTsrl3yHET/AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAFQH+z45M55s3Hli3lIBByUW47q9Jnfe7TVvjWUx1cFwHbRT3JnuUQMdIOKmjiQ/AR55O2JhWoUDqQd65g87fTpe/L5IdcROxXqvSP0Et1JOrKG0Lp9KgortvYa+YbZJzKk4K6WVz5RceNG6OmFHGq2GQOaasvcK/YCsZiYoNC0NX/uokTQHiZyK0MaiZ5vI1R/S8pUBaQGz/aF4Vf3125SuJ0YjoxXtHlPmPQP0xGAyj/N1nnne9VfmcRl0pmi7lAvkLpEHi1RBCnLgMM/ogk0uV7/qXFNOillq5aILHwccxoJy9rj9qjjOTxzagu8d5Xk7/nauxR6FH4vlMOFhYBQ=</X509Certificate>
+		</X509Data>
+	    </KeyInfo>
+	</KeyDescriptor>
+	<KeyDescriptor use="signing">
+	    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<X509Data>
+		    <X509Certificate>MIIC5jCCAc6gAwIBAgIQYQ6OIE3AdYhFvNyYIK/SVjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowHhcNMTMxMjEzMDkyODIxWhcNMTUwMTEyMDkyODIxWjAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDilsYegS3TyqhXZ0LcgK7v3c+bkEuk/WAmTplOhmeqBK02iGe5Vjd6i1cHcpBOviN7mD2czCc7HpF9FPLLgk6KOt3fjAjKbIwWIuTRxsRonLO7eY/G5bSv85CfZEKEjC7/8VVb/FSAZ3moH1fhuUBd2Pp/7VrXD9tGCxq+XaUI3haEOL+LvPzaDfr1dW5VMOJyB7S0wvKo4UezCyzItx1ooUW48u4ViEEB3UTUNMSSh0wYYf9Z+kMaDzorq9hy6wSr4apjjsQGy8W8rrIDZ6HSCn3SJrxPUk7LeAjEfb/LND3G8kvzxoHIMjJTX/WPbw6UEUJky311G17z1zGD+JH7AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAIKTX5yApEonLQuHJbTvuuy/ewIfq1ZlKUfeaJJpA2VNn0al8DDcyMSwmbRZkWLyCqJ5oGJWDeLLvyKnBkeFX/yidFeodccox+4winEjJbJCG6ucwLnjxsaS56k9HPU1gRP2OSSiI82sz4zix498nrOehNhRFmwJrwM0/KzoGw4LW0cNFgkDWoVb9Scdz77e4/0/4spbaa4NF//i5VfuxYVTGv5fhOKa+psdCI6v1naU5nzY+HjQKFE9Oy5mRVNXqZVVOvH3i75Av9Fjahf+w5eE/aQP4MpfJSp5lkWgvUYZOa4vXhO/uiLpMMvn9Pd4dphZ9V7Q/5BnKsFcv9WCqWM=</X509Certificate>
+		</X509Data>
+	    </KeyInfo>
+	</KeyDescriptor>
+	<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fs.stpeters.school.nz/adfs/ls/"/>
+	<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fs.stpeters.school.nz/adfs/ls/"/>
+	<NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+	<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+	<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+	<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fs.stpeters.school.nz/adfs/ls/" index="0" isDefault="true"/>
+	<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://fs.stpeters.school.nz/adfs/ls/" index="1"/>
+	<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fs.stpeters.school.nz/adfs/ls/" index="2"/>
+    </SPSSODescriptor>
+    <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+	<KeyDescriptor use="encryption">
+	    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<X509Data>
+		    <X509Certificate>MIIC7DCCAdSgAwIBAgIQOXfQaW3DDoFPiyWQbliK5TANBgkqhkiG9w0BAQsFADAyMTAwLgYDVQQDEydBREZTIEVuY3J5cHRpb24gLSBmcy5zdHBldGVycy5zY2hvb2wubnowHhcNMTMxMjEzMDkyODE4WhcNMTUwMTEyMDkyODE4WjAyMTAwLgYDVQQDEydBREZTIEVuY3J5cHRpb24gLSBmcy5zdHBldGVycy5zY2hvb2wubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDISGHQDA8GV4e2GuJLoEK9h/cyCCwBpmBS5PPZD1YyIcmjwqJj8Zp33CYnEIbCUxOq90N7+ABlhatFsRhVwZIy0vD7ccKywfOElCHSBOypA2JWXYBWU7yRjqcEBP2td2RoPOQwB+26DAC5kkkiUos/Xk3QKeFz5eaKGbZiWybc0O7XrfuzCd2m2haYBuHcGpRnuDClEqmOql5A34JqaqiSROI6GIiEm/pgJIXY6QZCdV5kDCT03TFeA2uMS39R76wepbm/c+6NvXtvP+kKV5a88Savf81U0uXVNglFhviW6SyU4ZzdiFpkb3f4P9Jsf1NdmzhY3kPUUvTsrl3yHET/AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAFQH+z45M55s3Hli3lIBByUW47q9Jnfe7TVvjWUx1cFwHbRT3JnuUQMdIOKmjiQ/AR55O2JhWoUDqQd65g87fTpe/L5IdcROxXqvSP0Et1JOrKG0Lp9KgortvYa+YbZJzKk4K6WVz5RceNG6OmFHGq2GQOaasvcK/YCsZiYoNC0NX/uokTQHiZyK0MaiZ5vI1R/S8pUBaQGz/aF4Vf3125SuJ0YjoxXtHlPmPQP0xGAyj/N1nnne9VfmcRl0pmi7lAvkLpEHi1RBCnLgMM/ogk0uV7/qXFNOillq5aILHwccxoJy9rj9qjjOTxzagu8d5Xk7/nauxR6FH4vlMOFhYBQ=</X509Certificate>
+		</X509Data>
+	    </KeyInfo>
+	</KeyDescriptor>
+	<KeyDescriptor use="signing">
+	    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<X509Data>
+		    <X509Certificate>MIIC5jCCAc6gAwIBAgIQYQ6OIE3AdYhFvNyYIK/SVjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowHhcNMTMxMjEzMDkyODIxWhcNMTUwMTEyMDkyODIxWjAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDilsYegS3TyqhXZ0LcgK7v3c+bkEuk/WAmTplOhmeqBK02iGe5Vjd6i1cHcpBOviN7mD2czCc7HpF9FPLLgk6KOt3fjAjKbIwWIuTRxsRonLO7eY/G5bSv85CfZEKEjC7/8VVb/FSAZ3moH1fhuUBd2Pp/7VrXD9tGCxq+XaUI3haEOL+LvPzaDfr1dW5VMOJyB7S0wvKo4UezCyzItx1ooUW48u4ViEEB3UTUNMSSh0wYYf9Z+kMaDzorq9hy6wSr4apjjsQGy8W8rrIDZ6HSCn3SJrxPUk7LeAjEfb/LND3G8kvzxoHIMjJTX/WPbw6UEUJky311G17z1zGD+JH7AgMBAAEwDQYJKoZIhvcNAQELBQADggEBAIKTX5yApEonLQuHJbTvuuy/ewIfq1ZlKUfeaJJpA2VNn0al8DDcyMSwmbRZkWLyCqJ5oGJWDeLLvyKnBkeFX/yidFeodccox+4winEjJbJCG6ucwLnjxsaS56k9HPU1gRP2OSSiI82sz4zix498nrOehNhRFmwJrwM0/KzoGw4LW0cNFgkDWoVb9Scdz77e4/0/4spbaa4NF//i5VfuxYVTGv5fhOKa+psdCI6v1naU5nzY+HjQKFE9Oy5mRVNXqZVVOvH3i75Av9Fjahf+w5eE/aQP4MpfJSp5lkWgvUYZOa4vXhO/uiLpMMvn9Pd4dphZ9V7Q/5BnKsFcv9WCqWM=</X509Certificate>
+		</X509Data>
+	    </KeyInfo>
+	</KeyDescriptor>
+	<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fs.stpeters.school.nz/adfs/ls/"/>
+	<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fs.stpeters.school.nz/adfs/ls/"/>
+	<NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+	<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+	<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+	<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fs.stpeters.school.nz/adfs/ls/"/>
+	<SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fs.stpeters.school.nz/adfs/ls/"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/emailaddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="E-Mail Address"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/givenname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Given Name"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Name"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/upn" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="UPN"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.xmlsoap.org/claims/CommonName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Common Name"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.xmlsoap.org/claims/EmailAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="AD FS 1.x E-Mail Address"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.xmlsoap.org/claims/Group" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Group"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.xmlsoap.org/claims/UPN" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="AD FS 1.x UPN"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.microsoft.com/ws/2008/06/identity/claims/role" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Role"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/surname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Surname"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/privatepersonalidentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="PPID"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/nameidentifier" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Name ID"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.microsoft.com/ws/2008/06/identity/claims/authenticationinstant" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Authentication time stamp"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.microsoft.com/ws/2008/06/identity/claims/authenticationmethod" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Authentication method"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.xmlsoap.org/ws/2005/05/identity/claims/denyonlysid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Deny only group SID"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.microsoft.com/ws/2008/06/identity/claims/denyonlyprimarysid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Deny only primary SID"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.microsoft.com/ws/2008/06/identity/claims/denyonlyprimarygroupsid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Deny only primary group SID"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.microsoft.com/ws/2008/06/identity/claims/groupsid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Group SID"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.microsoft.com/ws/2008/06/identity/claims/primarygroupsid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Primary group SID"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.microsoft.com/ws/2008/06/identity/claims/primarysid" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Primary SID"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="http://schemas.microsoft.com/ws/2008/06/identity/claims/windowsaccountname" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="Windows account name"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="urn:oid:1.3.6.1.4.1.36350.1.1.1.1" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="mlepUsername odi"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="urn:oid:1.3.6.1.4.1.36350.1.1.1.3" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="mlepFirstName odi"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="urn:oid:1.3.6.1.4.1.36350.1.1.1.4" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="mlepLastName odi"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="urn:oid:1.3.6.1.4.1.36350.1.1.1.5" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="mlepEmail odi"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="urn:oid:1.3.6.1.4.1.36350.1.1.1.6" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="mlepOrganisation odi"/>
+	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="urn:oid:1.3.6.1.4.1.36350.1.1.1.7" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="mlepRole odi"/>
+    </IDPSSODescriptor>
+    <Organization>
+	<OrganizationName xml:lang="en-NZ">St Peter's School, Cambridge</OrganizationName>
+	<OrganizationDisplayName xml:lang="en-NZ">St Peter's School, Cambridge</OrganizationDisplayName>
+	<OrganizationURL xml:lang="en-NZ">http://www.stpeters.school.nz/</OrganizationURL>
+    </Organization>
+    <ContactPerson contactType="support">
+	<GivenName>Tracy</GivenName>
+	<SurName>Briscoe</SurName>
+	<EmailAddress>tracyb@stpeters...</EmailAddress>
+	<TelephoneNumber>+64 7 827 9899 ext 254</TelephoneNumber>
+    </ContactPerson>
+</EntityDescriptor>
+
+<!-- SP - BestChoice DEV -->
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_ba763f5d27c1b83841e9bb48705171adcef33143" entityID="https://bestchoice-dev.fos.auckland.ac.nz/shibboleth">
+
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:Extensions>
+      <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://bestchoice-dev.fos.auckland.ac.nz/Shibboleth.sso/Login"/>
+      <idpdisc:DiscoveryResponse xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://bestchoice-dev.fos.auckland.ac.nz/Shibboleth.sso/Login" index="1"/>
+    </md:Extensions>
+    <md:KeyDescriptor>
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>bestchoice-dev.fos.auckland.ac.nz</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>emailAddress=security@auckland.ac.nz,CN=bestchoice-dev.fos.auckland.ac.nz,OU=ITS,O=The University of Auckland,L=Auckland,ST=Auckland,C=NZ</ds:X509SubjectName>
+          <ds:X509Certificate>MIID8jCCAtoCCQDQ1pvRGlko3TANBgkqhkiG9w0BAQUFADCBujELMAkGA1UEBhMC
+TloxETAPBgNVBAgTCEF1Y2tsYW5kMREwDwYDVQQHEwhBdWNrbGFuZDEjMCEGA1UE
+ChMaVGhlIFVuaXZlcnNpdHkgb2YgQXVja2xhbmQxDDAKBgNVBAsTA0lUUzEqMCgG
+A1UEAxMhYmVzdGNob2ljZS1kZXYuZm9zLmF1Y2tsYW5kLmFjLm56MSYwJAYJKoZI
+hvcNAQkBFhdzZWN1cml0eUBhdWNrbGFuZC5hYy5uejAeFw0xMjAyMDgyMzQwMTla
+Fw0zMjAyMDMyMzQwMTlaMIG6MQswCQYDVQQGEwJOWjERMA8GA1UECBMIQXVja2xh
+bmQxETAPBgNVBAcTCEF1Y2tsYW5kMSMwIQYDVQQKExpUaGUgVW5pdmVyc2l0eSBv
+ZiBBdWNrbGFuZDEMMAoGA1UECxMDSVRTMSowKAYDVQQDEyFiZXN0Y2hvaWNlLWRl
+di5mb3MuYXVja2xhbmQuYWMubnoxJjAkBgkqhkiG9w0BCQEWF3NlY3VyaXR5QGF1
+Y2tsYW5kLmFjLm56MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAycot
+aadrM2tWQy5zUn6JaSBUCm5hu70SdAPFjmEQY+Yg7KhcQxAV6hT9l9cKuu9kjn89
+upgFpp9iqHPU1OqPzyJjaxJEnvEhP7dgL4TUBgKeeL4XZV71fhB9TSuxtxfpJtE8
+YHAAJ6/3a8snApb59MmCD7FUi06ZIk5XE63PxS0Ub9o/qPl0KRBIeBmeSJ7RAglA
+KisWKoH3Uwdb52cmO0Mv5Ac9Jj1eQjJ3WZxr+XurrpFgg4Gva8k7w6K1xyyOIdrM
+rDyMaK+zwAiX4eQOOJXK9c+LbV8icx/m5Ea3BHRzkpaQaeQjxWZtkQRVTn690J8y
+RXzEP7TXiuIrF/aiBwIDAQABMA0GCSqGSIb3DQEBBQUAA4IBAQCE74CsqDNPRKhL
+frABIJy4QTUNFWq+O7U+jKVxVkU661d/xLWlJqiUMM6LMtb3zBpNz8uq/RTFFzS6
+Qmm8zmRg2oprnPRRAFy6fo3KsVhevwruCmKJq94s7iloOfnkjVXvtB20Kr3QFpr3
+DAYs4r9DLMuZu8eBxZUX6u+Ihng1bKRboW3EF1XDML6ctYUdXFD02a2TIEYM2neo
+HyHcHrzez0Ko+/qeRz3/aJTuhe7ME/32x8JgZ1u2/Q/2ZiQYW8dcc0/FU/y2MCyQ
+YGFKZsS1n8zXJors81sbe3lI9XDwBtvjsDC7+m/qrmEzQ4de2iN1S5E//qTS9C9R
+Qk/pcFEy
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://bestchoice-dev.fos.auckland.ac.nz/Shibboleth.sso/Artifact/SOAP" index="0"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://bestchoice-dev.fos.auckland.ac.nz/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://bestchoice-dev.fos.auckland.ac.nz/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://bestchoice-dev.fos.auckland.ac.nz/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://bestchoice-dev.fos.auckland.ac.nz/Shibboleth.sso/SLO/Artifact"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://bestchoice-dev.fos.auckland.ac.nz/Shibboleth.sso/SAML2/POST" index="0"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://bestchoice-dev.fos.auckland.ac.nz/Shibboleth.sso/SAML2/POST-SimpleSign" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://bestchoice-dev.fos.auckland.ac.nz/Shibboleth.sso/SAML2/Artifact" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://bestchoice-dev.fos.auckland.ac.nz/Shibboleth.sso/SAML2/ECP" index="3"/>
+  </md:SPSSODescriptor>
+
+</md:EntityDescriptor>
+
+<!-- SP - BestChoice PROD -->
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_b631989ac48535578b021b699f7dd93b96bf76ed" entityID="https://www.bestchoice.net.nz/shibboleth">
+
+  <md:Extensions xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport">
+    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384"/>
+    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+    <alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha224"/>
+    <alg:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha384"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha224"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha384"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2009/xmldsig11#dsa-sha256"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+    <alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
+  </md:Extensions>
+
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:Extensions>
+      <init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://www.bestchoice.net.nz/Shibboleth.sso/Login"/>
+      <idpdisc:DiscoveryResponse xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://www.bestchoice.net.nz/Shibboleth.sso/Login" index="1"/>
+    </md:Extensions>
+    <md:KeyDescriptor>
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:KeyName>www.bestchoice.net.nz</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509SubjectName>emailAddress=its-application-engineering@list.auckland.ac.nz,CN=www.bestchoice.net.nz,OU=ITS,O=The University of Auckland,L=Auckland,ST=Auckland,C=NZ</ds:X509SubjectName>
+          <ds:X509Certificate>MIIECjCCAvICCQCmWSZ6B/1b5jANBgkqhkiG9w0BAQUFADCBxjELMAkGA1UEBhMC
+TloxETAPBgNVBAgTCEF1Y2tsYW5kMREwDwYDVQQHEwhBdWNrbGFuZDEjMCEGA1UE
+ChMaVGhlIFVuaXZlcnNpdHkgb2YgQXVja2xhbmQxDDAKBgNVBAsTA0lUUzEeMBwG
+A1UEAxMVd3d3LmJlc3RjaG9pY2UubmV0Lm56MT4wPAYJKoZIhvcNAQkBFi9pdHMt
+YXBwbGljYXRpb24tZW5naW5lZXJpbmdAbGlzdC5hdWNrbGFuZC5hYy5uejAeFw0x
+MjExMTIwMjI2MzZaFw0zMzA1MjYwMjI2MzZaMIHGMQswCQYDVQQGEwJOWjERMA8G
+A1UECBMIQXVja2xhbmQxETAPBgNVBAcTCEF1Y2tsYW5kMSMwIQYDVQQKExpUaGUg
+VW5pdmVyc2l0eSBvZiBBdWNrbGFuZDEMMAoGA1UECxMDSVRTMR4wHAYDVQQDExV3
+d3cuYmVzdGNob2ljZS5uZXQubnoxPjA8BgkqhkiG9w0BCQEWL2l0cy1hcHBsaWNh
+dGlvbi1lbmdpbmVlcmluZ0BsaXN0LmF1Y2tsYW5kLmFjLm56MIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEArUzBafEB9ohFLrQYZLPPl3KKVrU8qZ/+k9o9
+ibmUQIQscL0hTfPMriO0rZlqjUH40XPtjWwQIqutiG1hJs/0CdSWlVvVOH6dq2Uj
+rZwMjJcvGxYb2UwI3E1Jtt5EO+GbshLtzq/B+di05D8p2YZAQwTgSvhKkKzBSKwn
+aKBuNSzRwzG3lCYvRmHwlUGUO1AHJIPCsqOJvaMvnjsaQGiDsvRj3rmarGJD/RBq
+nHN/85DuXNFqxCOsxZeKsqr3GAbU8TgBbcatWU/GrNDrkJYyDr+9V12rdDrNhwkZ
+RGppl8qsYtzZl+Vv1xplIZZk54yar7oe+/prAXeNbhkH2lvGQQIDAQABMA0GCSqG
+SIb3DQEBBQUAA4IBAQAVr0yn4bDeTqcvGuNQHVzdCUZ766turC7CLWynAJTNBn7Y
+++l6Q2ypXsZ98F/lpyy1CHQzepSsMUiS49iaW5jB69h1kiKO6D5YkA/T0JYHXoQ9
+A1TxzyZjiI3hcUxHLtjFrnlhrI/eA1NdIkZ7RyFh2eJwm29QCrc/xeLYsPS4LHUr
+mGuXw1BPRBuCh6dPGIVs2hi/rvJ7AFuxYrZE0fPEZXLZDjr28duoAV6zHRZuKepB
+gCJPK574i4ofNyhzT/4S+vxYUlgmDEUUJ9Xd6//R/EwVgEBrNcA4hxs5AyOdrUhD
+gG+HiSPptZPbYSf87X/sLPz61Wao8EPdtVQPe72c
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes128-gcm"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes192-gcm"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes256-gcm"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes192-cbc"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#rsa-oaep"/>
+      <md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+    </md:KeyDescriptor>
+    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.bestchoice.net.nz/Shibboleth.sso/Artifact/SOAP" index="1"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://www.bestchoice.net.nz/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.bestchoice.net.nz/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.bestchoice.net.nz/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://www.bestchoice.net.nz/Shibboleth.sso/SLO/Artifact"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.bestchoice.net.nz/Shibboleth.sso/SAML2/POST" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://www.bestchoice.net.nz/Shibboleth.sso/SAML2/POST-SimpleSign" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://www.bestchoice.net.nz/Shibboleth.sso/SAML2/Artifact" index="3"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://www.bestchoice.net.nz/Shibboleth.sso/SAML2/ECP" index="4"/>
+  </md:SPSSODescriptor>
+
+</md:EntityDescriptor>
+
+</EntitiesDescriptor>

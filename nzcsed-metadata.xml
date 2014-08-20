@@ -61,7 +61,7 @@
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.crystal.school.nz/simplesaml/saml2/idp/SSOService.php"/>
   </md:IDPSSODescriptor>
   <md:Organization>
-     <md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Crystal Identity</md:OrganizationName>
+     <md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">crystal.school.nz</md:OrganizationName>
      <md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Crystal Identity</md:OrganizationDisplayName>
      <md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://www.crystal.school.nz/</md:OrganizationURL>
   </md:Organization>
@@ -94,7 +94,7 @@
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.gcsn.school.nz/simplesaml/saml2/idp/SSOService.php"/>
   </md:IDPSSODescriptor>
   <md:Organization>
-     <md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Greater Christchurch Schools Network</md:OrganizationName>
+     <md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">gcsn.school.nz</md:OrganizationName>
      <md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Greater Christchurch Schools Network</md:OrganizationDisplayName>
      <md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://www.gcsn.school.nz/</md:OrganizationURL>
   </md:Organization>
@@ -510,7 +510,7 @@ Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
     <SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.catalyst.net.nz/simplesaml/saml2/idp/SSOService.php"/>
   </IDPSSODescriptor>
   <Organization>
-     <OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Catalyst</OrganizationName>
+     <OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">catalyst.net.nz</OrganizationName>
      <OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Test IdP - Catalyst SSO Login Service</OrganizationDisplayName>
      <OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://www.catalyst.net.nz/</OrganizationURL>
   </Organization>
@@ -545,7 +545,7 @@ Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.watchdog.net.nz/saml2/idp/SSOService.php"/>
   </md:IDPSSODescriptor>
   <md:Organization>
-    <md:OrganizationName xml:lang="en">Watchdog Identity Service</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">watchdog.net.nz</md:OrganizationName>
     <md:OrganizationDisplayName xml:lang="en">Watchdog Identity Service</md:OrganizationDisplayName>
     <md:OrganizationURL xml:lang="en">http://www.watchdog.net.nz/</md:OrganizationURL>
   </md:Organization>
@@ -616,9 +616,8 @@ Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://auth.edtech.net.nz/saml2/idp/SSOService.php"/>
   </md:IDPSSODescriptor>
   <md:Organization>
-    <md:OrganizationName xml:lang="en">Edtech</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">edtech.co.nz</md:OrganizationName>
     <md:OrganizationDisplayName xml:lang="en">Edtech SSO service</md:OrganizationDisplayName>
-
     <md:OrganizationURL xml:lang="en">www.edtech.co.nz</md:OrganizationURL>
   </md:Organization>
   <md:ContactPerson contactType="technical">
@@ -649,7 +648,7 @@ Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.school.nz/simplesaml/saml2/idp/SSOService.php"/>
   </md:IDPSSODescriptor>
   <md:Organization>
-    <md:OrganizationName xml:lang="en">Wellington Regional Single Signon</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">norrcom.com</md:OrganizationName>
     <md:OrganizationDisplayName xml:lang="en">Wellington Regional Single Signon</md:OrganizationDisplayName>
     <md:OrganizationURL xml:lang="en">http://www.norrcom.com</md:OrganizationURL>
   </md:Organization>
@@ -757,7 +756,7 @@ Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
 	<Attribute xmlns="urn:oasis:names:tc:SAML:2.0:assertion" Name="urn:oid:1.3.6.1.4.1.36350.1.1.1.7" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:uri" FriendlyName="mlepRole odi"/>
     </IDPSSODescriptor>
     <Organization>
-	<OrganizationName xml:lang="en-NZ">St Peter's School, Cambridge</OrganizationName>
+	<OrganizationName xml:lang="en-NZ">stpeters.school.nz</OrganizationName>
 	<OrganizationDisplayName xml:lang="en-NZ">St Peter's School, Cambridge</OrganizationDisplayName>
 	<OrganizationURL xml:lang="en-NZ">http://www.stpeters.school.nz/</OrganizationURL>
     </Organization>

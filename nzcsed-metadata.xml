@@ -60,11 +60,11 @@
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.crystal.school.nz/simplesaml/saml2/idp/SSOService.php"/>
   </md:IDPSSODescriptor>
-  <Organization>
-     <OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Crystal Identity</OrganizationName>
-     <OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Crystal Identity</OrganizationDisplayName>
-     <OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://www.crystal.school.nz/</OrganizationURL>
-  </Organization>
+  <md:Organization>
+     <md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Crystal Identity</md:OrganizationName>
+     <md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Crystal Identity</md:OrganizationDisplayName>
+     <md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://www.crystal.school.nz/</md:OrganizationURL>
+  </md:Organization>
   <md:ContactPerson contactType="technical">
     <md:SurName>Helpdesk</md:SurName>
     <md:EmailAddress>helpdesk@crystal.school.nz</md:EmailAddress>
@@ -93,11 +93,11 @@
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
     <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.gcsn.school.nz/simplesaml/saml2/idp/SSOService.php"/>
   </md:IDPSSODescriptor>
-  <Organization>
-     <OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Greater Christchurch Schools Network</OrganizationName>
-     <OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Greater Christchurch Schools Network</OrganizationDisplayName>
-     <OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://www.gcsn.school.nz/</OrganizationURL>
-  </Organization>
+  <md:Organization>
+     <md:OrganizationName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Greater Christchurch Schools Network</md:OrganizationName>
+     <md:OrganizationDisplayName xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">Greater Christchurch Schools Network</md:OrganizationDisplayName>
+     <md:OrganizationURL xmlns:xml="http://www.w3.org/XML/1998/namespace" xml:lang="en">http://www.gcsn.school.nz/</md:OrganizationURL>
+  </md:Organization>
   <md:ContactPerson contactType="technical">
     <md:SurName>HelpDesk</md:SurName>
     <md:EmailAddress>helpdesk@gcsn.school.nz</md:EmailAddress>

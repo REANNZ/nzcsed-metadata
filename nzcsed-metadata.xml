@@ -686,6 +686,9 @@ Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
 	<AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fs.stpeters.school.nz/adfs/ls/" index="2"/>
     </SPSSODescriptor>
     <IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <Extensions>
+            <shibmd:Scope regexp="false" xmlns:shibmd="urn:mace:shibboleth:metadata:1.0">stpeters.school.nz</shibmd:Scope>
+        </Extensions>
 	<KeyDescriptor use="encryption">
 	    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
 		<X509Data>

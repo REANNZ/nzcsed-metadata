@@ -556,6 +556,41 @@ Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
   </md:ContactPerson>
 </md:EntityDescriptor>
 
+<!-- manually provided metadata for OurSchool Identity Service (Alan Tomlinson <alan.tomlinson@ourschool.co.nz>) -->
+<!-- source: https://idp.ourschool.co.nz/saml2/idp/metadata.php -->
+<!-- to replace Watchdog -->
+
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://idp.ourschool.co.nz/saml2/idp/metadata.php">
+  <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID5DCCAswCCQCYm6OjN/eFsTANBgkqhkiG9w0BAQUFADCBszELMAkGA1UEBhMCTloxETAPBgNVBAgMCEF1Y2tsYW5kMRQwEgYDVQQHDAtOb3J0aCBTaG9yZTEXMBUGA1UECgwOT3VyIFNjaG9vbCBMdGQxGjAYBgNVBAsMEUlkZW50aXR5IFByb3ZpZGVyMR4wHAYDVQQDDBUqLm5vcnRoY290ZS5zY2hvb2wubnoxJjAkBgkqhkiG9w0BCQEWF3N1cHBvcnRAb3Vyc2Nob29sLmNvLm56MB4XDTE1MTAyOTAwMjk1NloXDTI1MTAyNjAwMjk1NlowgbMxCzAJBgNVBAYTAk5aMREwDwYDVQQIDAhBdWNrbGFuZDEUMBIGA1UEBwwLTm9ydGggU2hvcmUxFzAVBgNVBAoMDk91ciBTY2hvb2wgTHRkMRowGAYDVQQLDBFJZGVudGl0eSBQcm92aWRlcjEeMBwGA1UEAwwVKi5ub3J0aGNvdGUuc2Nob29sLm56MSYwJAYJKoZIhvcNAQkBFhdzdXBwb3J0QG91cnNjaG9vbC5jby5uejCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxsJHJTxnQgiT63iBfx8VaTLgyaUWkIbSK2WV3WtiA0l0Vy0sVIsWDDp/VXSSbvb+gLH+qQY+vD0Q7cT5vt/UyqutqV2lpaaLfSAFLsoQmhz8kNXvkGLAM3+pasCx2FDcsz95cZkOhreFeDPwfDh+w+KadQlRrzcjAJVOTTVtzpVU4egS4m1m6cCG8svw20KnIfL1XJBXyW9+S/D/yBtAx7xZaVUkARJYzjGes7No7PWnEpTkZ1/PNMlebqQm5lHodLWP49J46AexZCNl62Dy3CBxh8iOFiT/m0wjDk35926tvNApjPw/w9meZzjh04B7tHjc76CFZ0RibWgycuOZ0CAwEAATANBgkqhkiG9w0BAQUFAAOCAQEAkaI8YqmbZY6jlGcMMKdQw0nSIgDC/AzgwyYU5UA1bkKLCe0qgKMQRfFYPfd69VVjJMttLgHqktcIrIwkWpT/dUedy2gPjz5zyhbJ44PFL/DtrHJbWoDn+fHQvnArHbGdwwYF9SMQNx0bZAEf3MW2ilK22NFNCkZRAW4RbGGNo8Bi/v6RAIzBZWYayuxYpW2y55skZH77h2EyMouimCU4CbYtWdFAqtpFD08SEU9iQwfHpbECos58CKTbmmF/8tcrsLcJlJRBJjEYIE+/ESDJlrfF1miRnZXUhNEkVaRFIjFYVNzwghD16i1bfX31IXCkdLgiVRfEd4lymE7MQhx3NQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIID5DCCAswCCQCYm6OjN/eFsTANBgkqhkiG9w0BAQUFADCBszELMAkGA1UEBhMCTloxETAPBgNVBAgMCEF1Y2tsYW5kMRQwEgYDVQQHDAtOb3J0aCBTaG9yZTEXMBUGA1UECgwOT3VyIFNjaG9vbCBMdGQxGjAYBgNVBAsMEUlkZW50aXR5IFByb3ZpZGVyMR4wHAYDVQQDDBUqLm5vcnRoY290ZS5zY2hvb2wubnoxJjAkBgkqhkiG9w0BCQEWF3N1cHBvcnRAb3Vyc2Nob29sLmNvLm56MB4XDTE1MTAyOTAwMjk1NloXDTI1MTAyNjAwMjk1NlowgbMxCzAJBgNVBAYTAk5aMREwDwYDVQQIDAhBdWNrbGFuZDEUMBIGA1UEBwwLTm9ydGggU2hvcmUxFzAVBgNVBAoMDk91ciBTY2hvb2wgTHRkMRowGAYDVQQLDBFJZGVudGl0eSBQcm92aWRlcjEeMBwGA1UEAwwVKi5ub3J0aGNvdGUuc2Nob29sLm56MSYwJAYJKoZIhvcNAQkBFhdzdXBwb3J0QG91cnNjaG9vbC5jby5uejCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxsJHJTxnQgiT63iBfx8VaTLgyaUWkIbSK2WV3WtiA0l0Vy0sVIsWDDp/VXSSbvb+gLH+qQY+vD0Q7cT5vt/UyqutqV2lpaaLfSAFLsoQmhz8kNXvkGLAM3+pasCx2FDcsz95cZkOhreFeDPwfDh+w+KadQlRrzcjAJVOTTVtzpVU4egS4m1m6cCG8svw20KnIfL1XJBXyW9+S/D/yBtAx7xZaVUkARJYzjGes7No7PWnEpTkZ1/PNMlebqQm5lHodLWP49J46AexZCNl62Dy3CBxh8iOFiT/m0wjDk35926tvNApjPw/w9meZzjh04B7tHjc76CFZ0RibWgycuOZ0CAwEAATANBgkqhkiG9w0BAQUFAAOCAQEAkaI8YqmbZY6jlGcMMKdQw0nSIgDC/AzgwyYU5UA1bkKLCe0qgKMQRfFYPfd69VVjJMttLgHqktcIrIwkWpT/dUedy2gPjz5zyhbJ44PFL/DtrHJbWoDn+fHQvnArHbGdwwYF9SMQNx0bZAEf3MW2ilK22NFNCkZRAW4RbGGNo8Bi/v6RAIzBZWYayuxYpW2y55skZH77h2EyMouimCU4CbYtWdFAqtpFD08SEU9iQwfHpbECos58CKTbmmF/8tcrsLcJlJRBJjEYIE+/ESDJlrfF1miRnZXUhNEkVaRFIjFYVNzwghD16i1bfX31IXCkdLgiVRfEd4lymE7MQhx3NQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.ourschool.co.nz/saml2/idp/SingleLogoutService.php"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:SingleSignOnService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp.ourschool.co.nz/saml2/idp/SSOService.php"/>
+  </md:IDPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">OurSchool Identity Service</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">OurSchool Identity Service</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">http://www.ourschool.co.nz/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="technical">
+    <md:GivenName>Support</md:GivenName>
+    <md:EmailAddress>support@ourschool.co.nz</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
+
 <!-- manually provided metadata for Edtech SSO service (Craig Dean <craig.dean@edtech.co.nz>) -->
 
 <!-- commented out 2011-07-21 on request from Craig Dean

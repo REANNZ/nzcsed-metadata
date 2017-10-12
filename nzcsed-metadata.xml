@@ -522,6 +522,7 @@ Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
 
 <!-- manually provided metadata for idp.watchdog.net.nz (Brett Merrick <brett@watchdog.net.nz>) -->
 
+<!-- removed on request by Alan Tomlinson <alan.tomlinson@ourschool.co.nz> - replaced by OurSchool Identity Service
 
 <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://idp.watchdog.net.nz/saml2/idp/metadata.php">
   <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
@@ -556,9 +557,11 @@ Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
   </md:ContactPerson>
 </md:EntityDescriptor>
 
+-->
+
 <!-- manually provided metadata for OurSchool Identity Service (Alan Tomlinson <alan.tomlinson@ourschool.co.nz>) -->
 <!-- source: https://idp.ourschool.co.nz/saml2/idp/metadata.php -->
-<!-- to replace Watchdog -->
+<!-- replaces Watchdog -->
 
 <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://idp.ourschool.co.nz/saml2/idp/metadata.php">
   <md:IDPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">

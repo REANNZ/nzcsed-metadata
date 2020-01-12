@@ -714,6 +714,13 @@ Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
 		</X509Data>
 	    </KeyInfo>
 	</KeyDescriptor>
+	<KeyDescriptor use="signing">
+	    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<X509Data>
+		    <X509Certificate>MIIC5jCCAc6gAwIBAgIQbRYBUQ2ulJ5Mo6N5VJUdHzANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowHhcNMTkxMjA5MTEwMTA4WhcNMjEwMjAyMTEwMTA4WjAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8/16DOyvG5h1kCL2QspGe8Xcy13suRtCeok/A/45t+62t1zxbwC5rv2ZzSOJ1WMytvhF7Pdum7dJ2inz0kLuaCg42I5NGT4Q9HbnflmfKQpm+j0FvjzBpq97v0yZrVgsufrMcQukRBIMxIUqT4L/v4GpRtnqb/aBIov/T3dVcAcXhQ5+znxn5b8qDA5I4grmTZaD9p7bvCU350F91iW13Zv8RYE44/i4lk7aIA6J2jc5KCSAXJUmUouyhJhALMhPsus2wmAhItVXuMuuWOyJPa0h2U8wjmGdEszp5sJbkm7v6VGYcfo8TpFohaCexgk0IuoeniP52sVD5Cri/rFGFAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAGIvx5cRC4A90HlCFyUEzNQtrmw1vk3uRA7g956y82D0Rc+3jBeu01i0hwUbEAajfJNjh79DluetLat114kv6o0qtWUYbecYC15hb84wxH2+K1QglWjKLL3ygG+2NRPg/PnxfEgz/A8yfyXM/hytUa/lM+T7l0JtWYTdoFXZ1vn32J+3PSQRZOlllf8OtZCNgRd0tpu5D+QMry1eRUKvovsXYnCemFuHS4FhKG310pM0L/ocUNO0/3AEufSJmmvbENAB4wO4FR4EaRIMm8u2jofFytbh4rQY6ZLinpPoEgGKDCBVINqjPqPPMBaNeZygy0fHqYCevRmMUnh5FW7AKek=</X509Certificate>
+		</X509Data>
+	    </KeyInfo>
+	</KeyDescriptor>
 	<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fs.stpeters.school.nz/adfs/ls/"/>
 	<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fs.stpeters.school.nz/adfs/ls/"/>
 	<NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
@@ -738,6 +745,13 @@ Go0P6gqNjhrCkT4gNGaRK2cNFgn9KeMH3v32Rg==
 	    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
 		<X509Data>
 		    <X509Certificate>MIIC5jCCAc6gAwIBAgIQH4+5zIbsUqJJOdZZ54bD4jANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowHhcNMTgxMjA5MDk0NzE2WhcNMjAwMjAzMDk0NzE2WjAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJUgsAbx5sTABR2m7fXlRZ09ompdPdDZ6e7Yt81O35t8GKNFUEcJBNqmegPKkxmmRoZMygnyiEIn2cMA5ot29H/MAlWOsJdR2UlnxPvJnmZsDVcsbrYks3HjHWZAHbIIBBmSrkYBnkBkvDaH3F2FSkPR2HdawWeu3K4HRmr+xVcvdLMoisJ3sF+UYtesdiKw3e/0xtGbDOxcz0bMkj30cNsIW5JmOgudMZ8J+blsbxOviQEJB+JCsb/ZQMhgVOAjCTD3jeqbXULqTziitQdNTnLTRGTsEQ/o2e/7BFFcJgT958kPDVV49gqbBZXBiYI82cg5L4HocQPUDZ+PE6+hetAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAAPARwtZWO8bujqgIYp4F8fwLh6ACuXbRy+hHICL4oSXTYH19RZonqcYTsPLzxOobNPA7JjVBCYMCGs5/imX6xqdzemLXCHfFbNkp8hCu2HER6Y7HgkWFjrLE2Be06Xa3CEc/xVY4gG44KLxTuojVtwDitf9YAHUly1sA8ZcFCTdrS+u4VrQt1Fy4aCTcmLwe6jCi0f7Rk140jNJxTnK5AqWQrFT2ua8sSe5fSic2ak+Y+b9wPzVztKXp9Hl5la6KsCECu4PQ+bUj1TQxTmzkDhq8eSRR0r65hDQFszyeTJZL5UWaGpszVwvrYV23u6aZWH9aT8xnmMFd3GxYAJ5mIw=</X509Certificate>
+		</X509Data>
+	    </KeyInfo>
+	</KeyDescriptor>
+	<KeyDescriptor use="signing">
+	    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<X509Data>
+		    <X509Certificate>MIIC5jCCAc6gAwIBAgIQbRYBUQ2ulJ5Mo6N5VJUdHzANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowHhcNMTkxMjA5MTEwMTA4WhcNMjEwMjAyMTEwMTA4WjAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC8/16DOyvG5h1kCL2QspGe8Xcy13suRtCeok/A/45t+62t1zxbwC5rv2ZzSOJ1WMytvhF7Pdum7dJ2inz0kLuaCg42I5NGT4Q9HbnflmfKQpm+j0FvjzBpq97v0yZrVgsufrMcQukRBIMxIUqT4L/v4GpRtnqb/aBIov/T3dVcAcXhQ5+znxn5b8qDA5I4grmTZaD9p7bvCU350F91iW13Zv8RYE44/i4lk7aIA6J2jc5KCSAXJUmUouyhJhALMhPsus2wmAhItVXuMuuWOyJPa0h2U8wjmGdEszp5sJbkm7v6VGYcfo8TpFohaCexgk0IuoeniP52sVD5Cri/rFGFAgMBAAEwDQYJKoZIhvcNAQELBQADggEBAGIvx5cRC4A90HlCFyUEzNQtrmw1vk3uRA7g956y82D0Rc+3jBeu01i0hwUbEAajfJNjh79DluetLat114kv6o0qtWUYbecYC15hb84wxH2+K1QglWjKLL3ygG+2NRPg/PnxfEgz/A8yfyXM/hytUa/lM+T7l0JtWYTdoFXZ1vn32J+3PSQRZOlllf8OtZCNgRd0tpu5D+QMry1eRUKvovsXYnCemFuHS4FhKG310pM0L/ocUNO0/3AEufSJmmvbENAB4wO4FR4EaRIMm8u2jofFytbh4rQY6ZLinpPoEgGKDCBVINqjPqPPMBaNeZygy0fHqYCevRmMUnh5FW7AKek=</X509Certificate>
 		</X509Data>
 	    </KeyInfo>
 	</KeyDescriptor>

@@ -296,61 +296,6 @@ beBXHzmLW9ZTgJ+jXY3EY02dmfS9CvOX0KXo1Wex2Wgk1lsC+rzRaydUGFoq28od
 </md:EntityDescriptor>
 
 
-<!-- https://test.etv.org.nz/Shibboleth.sso/Metadata -->
-
-<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_e48c1be0b8808ca57d08b3aa3685f91a03696e66" entityID="https://test.etv.org.nz/shibboleth">
-
-  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol urn:oasis:names:tc:SAML:1.1:protocol urn:oasis:names:tc:SAML:1.0:protocol">
-    <md:Extensions>
-      <idpdisc:DiscoveryResponse xmlns:idpdisc="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Binding="urn:oasis:names:tc:SAML:profiles:SSO:idp-discovery-protocol" Location="https://test.etv.org.nz/Shibboleth.sso/DS" index="1"/>
-    </md:Extensions>
-    <md:KeyDescriptor>
-      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
-        <ds:KeyName>https://test.etv.org.nz/shibboleth</ds:KeyName>
-        <ds:KeyName>test.etv.org.nz</ds:KeyName>
-        <ds:X509Data>
-          <ds:X509SubjectName>CN=test.etv.org.nz</ds:X509SubjectName>
-          <ds:X509Certificate>MIIDGDCCAgCgAwIBAgIJAMxKYxq3TM+xMA0GCSqGSIb3DQEBBQUAMBoxGDAWBgNV
-BAMTD3Rlc3QuZXR2Lm9yZy5uejAeFw0xMzExMTgyMjU5MTlaFw0yMzExMTYyMjU5
-MTlaMBoxGDAWBgNVBAMTD3Rlc3QuZXR2Lm9yZy5uejCCASIwDQYJKoZIhvcNAQEB
-BQADggEPADCCAQoCggEBAK8OFLsZok8LYT7qHmCvua/OQGzhmQ5Kg/K4MCnsf/jZ
-PakbuCLNMJ7Yb8NAi35w+CVZAsh2hJwG7YeneLnHcLSe2qFI2uk2a0X3cz2yEFm/
-ab4B+DAYboEAuI8p5QXhXFu2LVa92fQHUqQdp5nkU9x7+QkK+a6KQFQNYfxqkJNz
-ZlEtN09PJw4dHtWCqOoPpZd1ift4e2yQ1vCbrarkd3pbdHd6w8NhRJ9vqDFP0AsZ
-fY7f9KbjrAY8fHRiaCGCM3vVOvP4yNUfcfe3eCxB4zJ7fBSD2HYkBQrvyxK7o/S4
-jnpXiC9wF0un+Ma5LwqLNqFYOcuex61MAbYrBMB+1xMCAwEAAaNhMF8wPgYDVR0R
-BDcwNYIPdGVzdC5ldHYub3JnLm56hiJodHRwczovL3Rlc3QuZXR2Lm9yZy5uei9z
-aGliYm9sZXRoMB0GA1UdDgQWBBSR/LJD+C+M6bNjfpmAhgZnknMP3jANBgkqhkiG
-9w0BAQUFAAOCAQEAfevxJfnwYWm9pdR1ytxpuPKxJs4xhW8uAycppHylgTxcNoYh
-x5Yjc4Nj40laFuEM6TfMfRuWAJGtxjmgRLvONSuobv7g+fr2O+Y5Vcf9tTWrQFxT
-MZ1NWdcx5Wgo4s9z/NYyognfSVtbLDKaHO3adTDWhN2M7/TDeGILEHteqCEBY9OE
-FNyXlRcblr1Nws9ndtV1wC09ea4Ph4mHGjQRvPG+Eo0kRt5H7liuWVTndWRGqo0y
-MTNa2fb/0isFBqlazpDcBAPOOkWU81rTvXxjTrphDN/du76RiZOy6Bsg1IzkrZTS
-kZG5tyxLUJ3eUBLlQLoc/yJ9t5+QyUoSuCziYQ==
-</ds:X509Certificate>
-        </ds:X509Data>
-      </ds:KeyInfo>
-    </md:KeyDescriptor>
-    <md:ArtifactResolutionService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://test.etv.org.nz/Shibboleth.sso/Artifact/SOAP" index="1"/>
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://test.etv.org.nz/Shibboleth.sso/SLO/Artifact"/>
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.etv.org.nz/Shibboleth.sso/SLO/POST"/>
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://test.etv.org.nz/Shibboleth.sso/SLO/Redirect"/>
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://test.etv.org.nz/Shibboleth.sso/SLO/SOAP"/>
-    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://test.etv.org.nz/Shibboleth.sso/NIM/Artifact"/>
-    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.etv.org.nz/Shibboleth.sso/NIM/POST"/>
-    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://test.etv.org.nz/Shibboleth.sso/NIM/Redirect"/>
-    <md:ManageNameIDService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://test.etv.org.nz/Shibboleth.sso/NIM/SOAP"/>
-    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:artifact-01" Location="https://test.etv.org.nz/Shibboleth.sso/SAML/Artifact" index="6"/>
-    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:1.0:profiles:browser-post" Location="https://test.etv.org.nz/Shibboleth.sso/SAML/POST" index="7"/>
-    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Artifact" Location="https://test.etv.org.nz/Shibboleth.sso/SAML2/Artifact" index="8"/>
-    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:PAOS" Location="https://test.etv.org.nz/Shibboleth.sso/SAML2/ECP" index="9"/>
-    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://test.etv.org.nz/Shibboleth.sso/SAML2/POST" index="10"/>
-    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST-SimpleSign" Location="https://test.etv.org.nz/Shibboleth.sso/SAML2/POST-SimpleSign" index="11"/>
-  </md:SPSSODescriptor>
-
-</md:EntityDescriptor>
-
-
 <!-- https://staging.etv.org.nz/Shibboleth.sso/Metadata -->
 
 <md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_71a3491a648eda06140d3570bee85c7b0137c8ef" entityID="https://staging.etv.org.nz/shibboleth">

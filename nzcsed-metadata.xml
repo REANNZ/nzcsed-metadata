@@ -521,6 +521,13 @@ beBXHzmLW9ZTgJ+jXY3EY02dmfS9CvOX0KXo1Wex2Wgk1lsC+rzRaydUGFoq28od
 		</X509Data>
 	    </KeyInfo>
 	</KeyDescriptor>
+	<KeyDescriptor use="signing">
+	    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<X509Data>
+		    <X509Certificate>MIIC5jCCAc6gAwIBAgIQHEcLxoAsg49OHZalpjDZ6DANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowHhcNMjExMjA4MjMzMTEwWhcNMjMwMjAyMjMzMTEwWjAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNfTS46V5MLJbTX6yUtOOAGbpaRHGbCfvhGlhTPhIOoshfHUPb50KB3MF/LwXU/ohIiASoa7vnhnwXbNRFKa0g4w5szuQG4KrxQUJycRmYkmdq7zYRRSRn3eArwg2bcRNNcmyw/S+RREQbs7gSehq9yMSQ7295FOV4/OJL2CrqEw5KtAHXiEy1CWUINMkrTGOtd42Acy83rkpiRrzoRAW9UGm/tC/D+fBmBj/24lyK5JWGZ4sKIdgOEn5Nm12AHzlPDjd4lBw75nNRFlY6ZC4BZBjuYmCwXlmCfq+syWOcAW6jccJAOL8+PkoSYKNu6HD43ZycqvuskQAlRw24g6+fAgMBAAEwDQYJKoZIhvcNAQELBQADggEBABxwAoPvMppLx0ZCfbeV7ZD8IXgLRVjcMpa6rFXVmcXvhxGSCqSDBTTAoCvUjiAI0e7whXjGui3w/ZF1/vR3dhzB8L8vvbC6XH6e/hW07lOlIyPLr6B1XjpPuJwPpe6Z4DwZ33A3W5+ViBHCmvooaiTWa25mfNwVDQXBERFChkU3nI6lLM/1cwRrzD61Hu/LFxv0R5YD+hzEKV+BsSu9hwpdd9PtbjHSv782uwXpnn8Fqtb+I/83XnMVyPlBTB1jociXvtTvYgb6Fmp1V0m3lnj1KOivhYqg2xldmyrHSll0/wY8BZqj6uOJb8jQGHA42xVtKiq5D/BiSzfJAaC+FlU=</X509Certificate>
+		</X509Data>
+	    </KeyInfo>
+	</KeyDescriptor>
 	<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://fs.stpeters.school.nz/adfs/ls/"/>
 	<SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://fs.stpeters.school.nz/adfs/ls/"/>
 	<NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
@@ -545,6 +552,13 @@ beBXHzmLW9ZTgJ+jXY3EY02dmfS9CvOX0KXo1Wex2Wgk1lsC+rzRaydUGFoq28od
 	    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
 		<X509Data>
 		    <X509Certificate>MIIC5jCCAc6gAwIBAgIQHWIRrkvA65ZPMkq1Gl13GjANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowHhcNMjAxMjA4MTczNTA2WhcNMjIwMjAyMTczNTA2WjAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCmRKovnctl5GnNnnoO7FQQXSio4+Z5srLIODpbxN+xVYlj7JjlkkjwZd9RVjBgqkG05xB/0E6iQ1IKsUIA6GSppHVBbSsku+KwMMZmmjuzMO2QQj0/2jTKwzMDD/8Aq+Gm03uyWi/WkePyPMtc22oOS0D0d0JqWJvGi88+s2oUz13q75qNIqsbe98cyhgvs/4NV3RWMvkW6/x2CGXkJzLaizlkFtC53v389lE5B+oJa2K+sqDn4Mwa6nNUl7l0NrdEKNYH/SkqlHGBTh532F4w6oCdDdN7bpZ8e81FLuw7V6S9+BuncvSq17op4YLQpgueo/zYmELqGCB2neqHGevpAgMBAAEwDQYJKoZIhvcNAQELBQADggEBACVoOTAB/0QOI6ax9FYiA6oLESQzqEmFXqKgkzQI+GHoeo9/cYi8hoj02/rzicF6ciAFLrbkUpp0Fvg3WMser4hUe+8CuYyM0ILdLUKB8tXEvyJ3kEZPp9x85dU4X8MOLRfucU+adQhE/lpFqFWiDCFSZvHAU2qm6KunGXvWMrdPJQ8APk4wZBh1APInZw9q+YIcoMrJTM7ntBGLdWbMEcyw0X/v6o6Gvb6iK9zgWjjOZqzFaaPlFDIhjflwaF+K5U3GkZ6SJ/NQv6SlnfEgKKZ5QQO4L8W2AeUnxC+LSb3e/9Emxo2Lsq6cZUBc55fxGrjWYHjuv/GgqSwDTQ/CClc=</X509Certificate>
+		</X509Data>
+	    </KeyInfo>
+	</KeyDescriptor>
+	<KeyDescriptor use="signing">
+	    <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+		<X509Data>
+		    <X509Certificate>MIIC5jCCAc6gAwIBAgIQHEcLxoAsg49OHZalpjDZ6DANBgkqhkiG9w0BAQsFADAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowHhcNMjExMjA4MjMzMTEwWhcNMjMwMjAyMjMzMTEwWjAvMS0wKwYDVQQDEyRBREZTIFNpZ25pbmcgLSBmcy5zdHBldGVycy5zY2hvb2wubnowggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDNfTS46V5MLJbTX6yUtOOAGbpaRHGbCfvhGlhTPhIOoshfHUPb50KB3MF/LwXU/ohIiASoa7vnhnwXbNRFKa0g4w5szuQG4KrxQUJycRmYkmdq7zYRRSRn3eArwg2bcRNNcmyw/S+RREQbs7gSehq9yMSQ7295FOV4/OJL2CrqEw5KtAHXiEy1CWUINMkrTGOtd42Acy83rkpiRrzoRAW9UGm/tC/D+fBmBj/24lyK5JWGZ4sKIdgOEn5Nm12AHzlPDjd4lBw75nNRFlY6ZC4BZBjuYmCwXlmCfq+syWOcAW6jccJAOL8+PkoSYKNu6HD43ZycqvuskQAlRw24g6+fAgMBAAEwDQYJKoZIhvcNAQELBQADggEBABxwAoPvMppLx0ZCfbeV7ZD8IXgLRVjcMpa6rFXVmcXvhxGSCqSDBTTAoCvUjiAI0e7whXjGui3w/ZF1/vR3dhzB8L8vvbC6XH6e/hW07lOlIyPLr6B1XjpPuJwPpe6Z4DwZ33A3W5+ViBHCmvooaiTWa25mfNwVDQXBERFChkU3nI6lLM/1cwRrzD61Hu/LFxv0R5YD+hzEKV+BsSu9hwpdd9PtbjHSv782uwXpnn8Fqtb+I/83XnMVyPlBTB1jociXvtTvYgb6Fmp1V0m3lnj1KOivhYqg2xldmyrHSll0/wY8BZqj6uOJb8jQGHA42xVtKiq5D/BiSzfJAaC+FlU=</X509Certificate>
 		</X509Data>
 	    </KeyInfo>
 	</KeyDescriptor>
